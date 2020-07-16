@@ -535,6 +535,336 @@
                     "000000"
                 ]
             },
+            "200": {
+                "name": "76ers",
+                "file": "NBC_PHILADELPHIA",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "201": {
+                "name": "Bucks",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "202": {
+                "name": "Wizards",
+                "file": "NBC_SNF",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "203": {
+                "name": "Bulls",
+                "file": "NBC_CHICAGO",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "204": {
+                "name": "Cavaliers",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "205": {
+                "name": "Celtics",
+                "file": "NBC_BOSTON",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "206": {
+                "name": "Clippers",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "208": {
+                "name": "Grizzlies",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "209": {
+                "name": "Hawks",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "210": {
+                "name": "Heat",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "211": {
+                "name": "Pelicans",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "212": {
+                "name": "Jazz",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "213": {
+                "name": "Kings",
+                "file": "NBC_CALIFORNIA",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "214": {
+                "name": "Knicks",
+                "file": "MSG",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "215": {
+                "name": "Lakers",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "216": {
+                "name": "Magic",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "217": {
+                "name": "Mavericks",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "218": {
+                "name": "Nets",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "219": {
+                "name": "Nuggets",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "220": {
+                "name": "Pacers",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "221": {
+                "name": "Pistons",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "222": {
+                "name": "Raptors",
+                "file": "TSN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "223": {
+                "name": "Rockets",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "224": {
+                "name": "Thunder",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "225": {
+                "name": "Spurs",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "226": {
+                "name": "Suns",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "227": {
+                "name": "Timberwolves",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "228": {
+                "name": "TrailBlazers",
+                "file": "NBC_PNW",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "229": {
+                "name": "Warriors",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "231": {
+                "name": "Hornets",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "501": {
+                "name": "2K Sports",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "504": {
+                "name": "USA",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "505": {
+                "name": "World",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
             "551": {
                 "name": "Bulls",
                 "file": "NBC_CLASSIC",
@@ -915,6 +1245,46 @@
                     "000000"
                 ]
             },
+            "600": {
+                "name": "Home",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "601": {
+                "name": "Away",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "602": {
+                "name": "Ballerz",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "603": {
+                "name": "Ringers",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
             "640": {
                 "name": "Hornets",
                 "file": "ESPN_05",
@@ -1058,6 +1428,26 @@
             "661": {
                 "name": "Heat",
                 "file": "ESPN_12",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "700": {
+                "name": "USA",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "701": {
+                "name": "World",
+                "file": "TNT",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1225,6 +1615,306 @@
                     "000000"
                 ]
             },
+            "770": {
+                "name": "76ers",
+                "file": "NBC_PHILADELPHIA",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "771": {
+                "name": "Bucks",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "772": {
+                "name": "Bulls",
+                "file": "NBC_CHICAGO",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "773": {
+                "name": "Cavaliers",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "774": {
+                "name": "Celtics",
+                "file": "NBC_BOSTON",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "775": {
+                "name": "Clippers",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "776": {
+                "name": "Grizzlies",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "777": {
+                "name": "Hawks",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "778": {
+                "name": "Heat",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "779": {
+                "name": "Hornets",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "780": {
+                "name": "Jazz",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "781": {
+                "name": "Kings",
+                "file": "NBC_CALIFORNIA",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "782": {
+                "name": "Knicks",
+                "file": "MSG",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "783": {
+                "name": "Lakers",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "784": {
+                "name": "Magic",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "785": {
+                "name": "Mavericks",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "786": {
+                "name": "Nets",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "787": {
+                "name": "Nuggets",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "788": {
+                "name": "Pacers",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "789": {
+                "name": "Pelicans",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "790": {
+                "name": "Pistons",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "791": {
+                "name": "Raptors",
+                "file": "TSN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "792": {
+                "name": "Rockets",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "793": {
+                "name": "Spurs",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "794": {
+                "name": "Suns",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "795": {
+                "name": "Thunder",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "796": {
+                "name": "Timberwolves",
+                "file": "FOX",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "797": {
+                "name": "TrailBlazers",
+                "file": "NBC_PNW",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "798": {
+                "name": "Warriors",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "799": {
+                "name": "Wizards",
+                "file": "NBC_SNF",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
             "890": {
                 "name": "Suns",
                 "file": "ESPN_05",
@@ -1277,6 +1967,26 @@
             },
             "895": {
                 "name": "Cavaliers",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "907": {
+                "name": "Team Blue",
+                "file": "ESPN",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "908": {
+                "name": "Team Red",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
