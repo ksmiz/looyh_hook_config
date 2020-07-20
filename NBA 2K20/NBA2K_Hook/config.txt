@@ -26,6 +26,43 @@
                 "nbaball.iff": "YourBallFile.iff",
                 "theOriginFileName": "YourFileName"
             },
+            "ALTITUDE": {
+                "newbreakboard.iff": "newbreakboard_altitude.iff",
+                "newscorebug.iff": "scorebug_altitude.iff"
+            },
+            "ATT_JAZZ": {
+                "newbreakboard.iff": "newbreakboard_att_jazz.iff",
+                "newscorebug.iff": "scorebug_att.iff"
+            },
+            "ATT_ROCKETS": {
+                "newscorebug.iff": "scorebug_att.iff"
+            },
+            "CBS_85": {
+                "newscorebug.iff": "scorebug_cbs_85.iff",
+                "watermark.iff": "watermark_cbs_85.iff",
+                "gooeyoverlaysstatic.iff": "wipe_cbs_85.iff",
+                "clothing/a_logo_nba.iff": "clothing_90s/a_logo_nba.iff",
+                "clothing/clothing_resource_nba_2k19_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_n_tex.iff": "clothing_90s/clothing_resource_nba_2k19_n_tex.iff",
+                "clothing/clothing_resource_nba_embroidery_tex.iff": "clothing_90s/clothing_resource_nba_embroidery_tex.iff",
+                "clothing/clothing_resource_nba_headband_tex.iff": "clothing_90s/clothing_resource_nba_headband_tex.iff",
+                "clothing/clothing_resource_nba_patch_tex.iff": "clothing_90s/clothing_resource_nba_patch_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_c_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_n_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_n_tex.iff",
+                "clothing/clothing_resource_nba_sock_02_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_02_c_tex.iff",
+                "clothing/clothing_resource_nike_c_tex.iff": "clothing_90s/clothing_resource_nike_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_black_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_black_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_n_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_n_tex.iff",
+                "clothing/clothing_resource_nike_single_n_tex.iff": "clothing_90s/clothing_resource_nike_single_n_tex.iff",
+                "clothing/clothing_resource_nike_sock_c_tex.iff": "clothing_90s/clothing_resource_nike_sock_c_tex.iff",
+                "clothing/clothing_resource_nike_sock_n_tex.iff": "clothing_90s/clothing_resource_nike_sock_n_tex.iff",
+                "clothing/clothing_resource_nike_swoosh_embroidery_tex.iff": "clothing_90s/clothing_resource_nike_swoosh_embroidery_tex.iff",
+                "clothing/clothing_resource_polo_tuck_color_tex.iff": "clothing_90s/clothing_resource_polo_tuck_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_color_tex.iff": "clothing_90s/clothing_resource_shirt_referee_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
+            },
             "CBS_NCAA": {
                 "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_cbs_ncaa.iff"
             },
@@ -93,11 +130,13 @@
                 "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff"
             },
             "FOX": {
+                "newbreakboard.iff": "newbreakboard_fox.iff",
                 "newscorebug.iff": "scorebug_fox.iff",
                 "watermark.iff": "watermark_fox.iff",
                 "gooeyoverlaysstatic.iff": "wipe_fox.iff"
             },
             "NBATV": {
+                "newscorebug.iff": "scorebug_nbatv.iff",
                 "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbatv.iff"
             },
             "NBC": {
@@ -138,9 +177,30 @@
             "NBC_CLASSIC": {
                 "newbreakboard.iff": "newbreakboard_nbc.iff",
                 "newscorebug.iff": "scorebug_nbc_classic.iff",
-                "watermark.iff": "watermark_nbc.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
+                "watermark.iff": "watermark_nbc_classic.iff",
+                "gooeyoverlaysstatic.iff": "wipe_nbc_classic.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc_classic.iff",
+                "clothing/a_logo_nba.iff": "clothing_90s/a_logo_nba.iff",
+                "clothing/clothing_resource_nba_2k19_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_n_tex.iff": "clothing_90s/clothing_resource_nba_2k19_n_tex.iff",
+                "clothing/clothing_resource_nba_embroidery_tex.iff": "clothing_90s/clothing_resource_nba_embroidery_tex.iff",
+                "clothing/clothing_resource_nba_headband_tex.iff": "clothing_90s/clothing_resource_nba_headband_tex.iff",
+                "clothing/clothing_resource_nba_patch_tex.iff": "clothing_90s/clothing_resource_nba_patch_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_c_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_n_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_n_tex.iff",
+                "clothing/clothing_resource_nba_sock_02_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_02_c_tex.iff",
+                "clothing/clothing_resource_nike_c_tex.iff": "clothing_90s/clothing_resource_nike_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_black_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_black_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_n_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_n_tex.iff",
+                "clothing/clothing_resource_nike_single_n_tex.iff": "clothing_90s/clothing_resource_nike_single_n_tex.iff",
+                "clothing/clothing_resource_nike_sock_c_tex.iff": "clothing_90s/clothing_resource_nike_sock_c_tex.iff",
+                "clothing/clothing_resource_nike_sock_n_tex.iff": "clothing_90s/clothing_resource_nike_sock_n_tex.iff",
+                "clothing/clothing_resource_nike_swoosh_embroidery_tex.iff": "clothing_90s/clothing_resource_nike_swoosh_embroidery_tex.iff",
+                "clothing/clothing_resource_polo_tuck_color_tex.iff": "clothing_90s/clothing_resource_polo_tuck_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_color_tex.iff": "clothing_90s/clothing_resource_shirt_referee_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
             },
             "NBC_PHILADELPHIA": {
                 "newbreakboard.iff": "newbreakboard_nbc.iff",
@@ -154,7 +214,7 @@
                 "newscorebug.iff": "scorebug_nbc_pnw.iff",
                 "watermark.iff": "watermark_nbc_pnw.iff",
                 "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc_pnw.iff"
             },
             "NBC_SNF": {
                 "newbreakboard.iff": "newbreakboard_nbc.iff",
@@ -171,8 +231,13 @@
                 "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
             },
             "MSG": {
+                "newbreakboard.iff": "newbreakboard_msg.iff",
                 "newscorebug.iff": "scorebug_msg.iff",
                 "watermark.iff": "watermark_msg.iff"
+            },
+            "SPECTRUM": {
+                "newbreakboard.iff": "newbreakboard_spectrum.iff",
+                "newscorebug.iff": "scorebug_spectrum.iff"
             },
             "TNT": {
                 "newscorebug.iff": "scorebug_tnt.iff",
@@ -187,21 +252,67 @@
                 "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt.iff"
             },
             "TNT_92": {
-                "newscorebug.iff": "scorebug_tnt_98.iff",
-                "watermark.iff": "watermark_tnt_98.iff",
-                "gooeyoverlaysstatic.iff": "wipe_tnt_98.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt_92.iff"
+                "newscorebug.iff": "scorebug_tnt_92.iff",
+                "watermark.iff": "watermark_tnt_92.iff",
+                "gooeyoverlaysstatic.iff": "wipe_tnt_92.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt_92.iff",
+                "clothing/a_logo_nba.iff": "clothing_90s/a_logo_nba.iff",
+                "clothing/clothing_resource_nba_2k19_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_n_tex.iff": "clothing_90s/clothing_resource_nba_2k19_n_tex.iff",
+                "clothing/clothing_resource_nba_embroidery_tex.iff": "clothing_90s/clothing_resource_nba_embroidery_tex.iff",
+                "clothing/clothing_resource_nba_headband_tex.iff": "clothing_90s/clothing_resource_nba_headband_tex.iff",
+                "clothing/clothing_resource_nba_patch_tex.iff": "clothing_90s/clothing_resource_nba_patch_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_c_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_n_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_n_tex.iff",
+                "clothing/clothing_resource_nba_sock_02_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_02_c_tex.iff",
+                "clothing/clothing_resource_nike_c_tex.iff": "clothing_90s/clothing_resource_nike_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_black_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_black_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_n_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_n_tex.iff",
+                "clothing/clothing_resource_nike_single_n_tex.iff": "clothing_90s/clothing_resource_nike_single_n_tex.iff",
+                "clothing/clothing_resource_nike_sock_c_tex.iff": "clothing_90s/clothing_resource_nike_sock_c_tex.iff",
+                "clothing/clothing_resource_nike_sock_n_tex.iff": "clothing_90s/clothing_resource_nike_sock_n_tex.iff",
+                "clothing/clothing_resource_nike_swoosh_embroidery_tex.iff": "clothing_90s/clothing_resource_nike_swoosh_embroidery_tex.iff",
+                "clothing/clothing_resource_polo_tuck_color_tex.iff": "clothing_90s/clothing_resource_polo_tuck_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_color_tex.iff": "clothing_90s/clothing_resource_shirt_referee_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
             },
             "TNT_98": {
                 "newscorebug.iff": "scorebug_tnt_98.iff",
                 "watermark.iff": "watermark_tnt_98.iff",
                 "gooeyoverlaysstatic.iff": "wipe_tnt_98.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt_92.iff",
+                "clothing/a_logo_nba.iff": "clothing_90s/a_logo_nba.iff",
+                "clothing/clothing_resource_nba_2k19_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_n_tex.iff": "clothing_90s/clothing_resource_nba_2k19_n_tex.iff",
+                "clothing/clothing_resource_nba_embroidery_tex.iff": "clothing_90s/clothing_resource_nba_embroidery_tex.iff",
+                "clothing/clothing_resource_nba_headband_tex.iff": "clothing_90s/clothing_resource_nba_headband_tex.iff",
+                "clothing/clothing_resource_nba_patch_tex.iff": "clothing_90s/clothing_resource_nba_patch_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_c_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_n_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_n_tex.iff",
+                "clothing/clothing_resource_nba_sock_02_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_02_c_tex.iff",
+                "clothing/clothing_resource_nike_c_tex.iff": "clothing_90s/clothing_resource_nike_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_black_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_black_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_n_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_n_tex.iff",
+                "clothing/clothing_resource_nike_single_n_tex.iff": "clothing_90s/clothing_resource_nike_single_n_tex.iff",
+                "clothing/clothing_resource_nike_sock_c_tex.iff": "clothing_90s/clothing_resource_nike_sock_c_tex.iff",
+                "clothing/clothing_resource_nike_sock_n_tex.iff": "clothing_90s/clothing_resource_nike_sock_n_tex.iff",
+                "clothing/clothing_resource_nike_swoosh_embroidery_tex.iff": "clothing_90s/clothing_resource_nike_swoosh_embroidery_tex.iff",
+                "clothing/clothing_resource_polo_tuck_color_tex.iff": "clothing_90s/clothing_resource_polo_tuck_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_color_tex.iff": "clothing_90s/clothing_resource_shirt_referee_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
             },
             "TSN": {
                 "newscorebug.iff": "scorebug_tsn.iff",
                 "watermark.iff": "watermark_tsn.iff",
                 "gooeyoverlaysstatic.iff": "wipe_tsn.iff"
+            },
+            "YES": {
+                "newbreakboard.iff": "newbreakboard_yes.iff",
+                "newscorebug.iff": "scorebug_yes.iff"
             }
         },
         "teams": {
@@ -327,7 +438,7 @@
             },
             "12": {
                 "name": "Jazz",
-                "file": "TNT",
+                "file": "ATT_JAZZ",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -357,7 +468,7 @@
             },
             "15": {
                 "name": "Lakers",
-                "file": "ESPN",
+                "file": "SPECTRUM",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -387,7 +498,7 @@
             },
             "18": {
                 "name": "Nets",
-                "file": "TNT",
+                "file": "YES",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -397,7 +508,7 @@
             },
             "19": {
                 "name": "Nuggets",
-                "file": "FOX",
+                "file": "ALTITUDE",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -437,7 +548,7 @@
             },
             "23": {
                 "name": "Rockets",
-                "file": "TNT",
+                "file": "ATT_ROCKETS",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -517,7 +628,7 @@
             },
             "31": {
                 "name": "Hornets",
-                "file": "FOX",
+                "file": "SPECTRUM",
                 "useColors": 0,
                 "colors": [
                     "000000",
