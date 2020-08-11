@@ -28,14 +28,35 @@
             },
             "ALTITUDE": {
                 "newbreakboard.iff": "newbreakboard_altitude.iff",
-                "newscorebug.iff": "scorebug_altitude.iff"
+                "newscorebug.iff": "scorebug_altitude.iff",
+                "watermark.iff": "watermark_altitude.iff",
+                "gooeyoverlaysstatic.iff": "wipe_altitude.iff",
+                "pregame/studio_arenadesk_int.iff": "pregame/studio_arenadesk_int_altitude.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_altitude.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_altitude.iff",
+                "titlecard2.iff": "titlecard2_altitude.iff"
             },
             "ATT_JAZZ": {
+                "gooeyoverlaysstatic.iff": "wipe_att.iff",
                 "newbreakboard.iff": "newbreakboard_att_jazz.iff",
-                "newscorebug.iff": "scorebug_att.iff"
+                "newscorebug.iff": "scorebug_att.iff",
+                "pregame/studio_arenadesk_int.iff": "pregame/studio_arenadesk_int_att_jazz.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_att_jazz.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_att.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_att.iff",
+                "titlecard2.iff": "titlecard2_att.iff",
+                "watermark.iff": "watermark_att.iff"
             },
             "ATT_ROCKETS": {
-                "newscorebug.iff": "scorebug_att.iff"
+                "gooeyoverlaysstatic.iff": "wipe_att.iff",
+                "newbreakboard.iff": "newbreakboard_att_rockets.iff",
+                "newscorebug.iff": "scorebug_att.iff",
+                "pregame/studio_arenadesk_int.iff": "pregame/studio_arenadesk_int_att_rockets.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_att_rockets.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_att.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_att.iff",
+                "titlecard2.iff": "titlecard2_att.iff",
+                "watermark.iff": "watermark_att.iff"
             },
             "CBS_85": {
                 "newscorebug.iff": "scorebug_cbs_85.iff",
@@ -68,72 +89,170 @@
             },
             "ESPN": {
                 "newbreakboard.iff": "newbreakboard_espn_12.iff",
-                "newscorebug.iff": "scorebug_espn.iff",
+                "newscorebug.iff": "espn_19-20/scorebug_espn_19-20.iff",
                 "watermark.iff": "watermark_espn.iff",
                 "gooeyoverlaysstatic.iff": "wipe_espn.iff",
-                "logo000.iff": "espn_logo000.iff",
-                "logo001.iff": "espn_logo001.iff",
-                "logo002.iff": "espn_logo002.iff",
-                "logo003.iff": "espn_logo003.iff",
-                "logo004.iff": "espn_logo004.iff",
-                "logo005.iff": "espn_logo005.iff",
-                "logo006.iff": "espn_logo006.iff",
-                "logo008.iff": "espn_logo008.iff",
-                "logo009.iff": "espn_logo009.iff",
-                "logo010.iff": "espn_logo010.iff",
-                "logo011.iff": "espn_logo011.iff",
-                "logo012.iff": "espn_logo012.iff",
-                "logo013.iff": "espn_logo013.iff",
-                "logo014.iff": "espn_logo014.iff",
-                "logo015.iff": "espn_logo015.iff",
-                "logo016.iff": "espn_logo016.iff",
-                "logo017.iff": "espn_logo017.iff",
-                "logo018.iff": "espn_logo018.iff",
-                "logo019.iff": "espn_logo019.iff",
-                "logo020.iff": "espn_logo020.iff",
-                "logo021.iff": "espn_logo021.iff",
-                "logo022.iff": "espn_logo022.iff",
-                "logo023.iff": "espn_logo023.iff",
-                "logo024.iff": "espn_logo024.iff",
-                "logo025.iff": "espn_logo025.iff",
-                "logo026.iff": "espn_logo026.iff",
-                "logo027.iff": "espn_logo027.iff",
-                "logo028.iff": "espn_logo028.iff",
-                "logo029.iff": "espn_logo029.iff",
-                "logo031.iff": "espn_logo031.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff"
+                "logo000.iff": "espn_19-20/logo000.iff",
+                "logo001.iff": "espn_19-20/logo001.iff",
+                "logo002.iff": "espn_19-20/logo002.iff",
+                "logo003.iff": "espn_19-20/logo003.iff",
+                "logo004.iff": "espn_19-20/logo004.iff",
+                "logo005.iff": "espn_19-20/logo005.iff",
+                "logo006.iff": "espn_19-20/logo006.iff",
+                "logo008.iff": "espn_19-20/logo008.iff",
+                "logo009.iff": "espn_19-20/logo009.iff",
+                "logo010.iff": "espn_19-20/logo010.iff",
+                "logo011.iff": "espn_19-20/logo011.iff",
+                "logo012.iff": "espn_19-20/logo012.iff",
+                "logo013.iff": "espn_19-20/logo013.iff",
+                "logo014.iff": "espn_19-20/logo014.iff",
+                "logo015.iff": "espn_19-20/logo015.iff",
+                "logo016.iff": "espn_19-20/logo016.iff",
+                "logo017.iff": "espn_19-20/logo017.iff",
+                "logo018.iff": "espn_19-20/logo018.iff",
+                "logo019.iff": "espn_19-20/logo019.iff",
+                "logo020.iff": "espn_19-20/logo020.iff",
+                "logo021.iff": "espn_19-20/logo021.iff",
+                "logo022.iff": "espn_19-20/logo022.iff",
+                "logo023.iff": "espn_19-20/logo023.iff",
+                "logo024.iff": "espn_19-20/logo024.iff",
+                "logo025.iff": "espn_19-20/logo025.iff",
+                "logo026.iff": "espn_19-20/logo026.iff",
+                "logo027.iff": "espn_19-20/logo027.iff",
+                "logo028.iff": "espn_19-20/logo028.iff",
+                "logo029.iff": "espn_19-20/logo029.iff",
+                "logo031.iff": "espn_19-20/logo031.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
+                "titlecard2.iff": "titlecard2_espn.iff"
             },
             "ESPN_05": {
                 "newbreakboard.iff": "newbreakboard_espn_12.iff",
                 "newscorebug.iff": "scorebug_espn_05.iff",
                 "watermark.iff": "watermark_espn_05.iff",
                 "gooeyoverlaysstatic.iff": "wipe_espn_05.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
+                "titlecard2.iff": "titlecard2_espn.iff"
             },
             "ESPN_07": {
                 "newbreakboard.iff": "newbreakboard_espn_12.iff",
                 "newscorebug.iff": "scorebug_espn_07.iff",
                 "watermark.iff": "watermark_espn_07.iff",
                 "gooeyoverlaysstatic.iff": "wipe_espn_07.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn_07.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn_07.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
+                "titlecard2.iff": "titlecard2_espn.iff"
             },
             "ESPN_12": {
                 "newbreakboard.iff": "newbreakboard_espn_12.iff",
                 "newscorebug.iff": "scorebug_espn_12.iff",
                 "watermark.iff": "watermark_espn_07.iff",
                 "gooeyoverlaysstatic.iff": "wipe_espn_07.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn_07.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn_07.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
+                "titlecard2.iff": "titlecard2_espn.iff"
+            },
+            "ESPN_13-16": {
+                "newbreakboard.iff": "newbreakboard_espn_12.iff",
+                "newscorebug.iff": "scorebug_espn_13-16.iff",
+                "watermark.iff": "watermark_espn_07.iff",
+                "gooeyoverlaysstatic.iff": "wipe_espn_07.iff",
+                "logo000.iff": "espn_13-16/logo000.iff",
+                "logo001.iff": "espn_13-16/logo001.iff",
+                "logo002.iff": "espn_13-16/logo002.iff",
+                "logo003.iff": "espn_13-16/logo003.iff",
+                "logo004.iff": "espn_13-16/logo004.iff",
+                "logo005.iff": "espn_13-16/logo005.iff",
+                "logo006.iff": "espn_13-16/logo006.iff",
+                "logo008.iff": "espn_13-16/logo008.iff",
+                "logo009.iff": "espn_13-16/logo009.iff",
+                "logo010.iff": "espn_13-16/logo010.iff",
+                "logo011.iff": "espn_13-16/logo011.iff",
+                "logo012.iff": "espn_13-16/logo012.iff",
+                "logo013.iff": "espn_13-16/logo013.iff",
+                "logo014.iff": "espn_13-16/logo014.iff",
+                "logo015.iff": "espn_13-16/logo015.iff",
+                "logo016.iff": "espn_13-16/logo016.iff",
+                "logo017.iff": "espn_13-16/logo017.iff",
+                "logo018.iff": "espn_13-16/logo018.iff",
+                "logo019.iff": "espn_13-16/logo019.iff",
+                "logo020.iff": "espn_13-16/logo020.iff",
+                "logo021.iff": "espn_13-16/logo021.iff",
+                "logo022.iff": "espn_13-16/logo022.iff",
+                "logo023.iff": "espn_13-16/logo023.iff",
+                "logo024.iff": "espn_13-16/logo024.iff",
+                "logo025.iff": "espn_13-16/logo025.iff",
+                "logo026.iff": "espn_13-16/logo026.iff",
+                "logo027.iff": "espn_13-16/logo027.iff",
+                "logo028.iff": "espn_13-16/logo028.iff",
+                "logo029.iff": "espn_13-16/logo029.iff",
+                "logo031.iff": "espn_13-16/logo031.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn_07.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
+                "titlecard2.iff": "titlecard2_espn.iff"
+            },
+            "ESPN_18-19": {
+                "newbreakboard.iff": "newbreakboard_espn_12.iff",
+                "newscorebug.iff": "espn_18-19/scorebug_espn_18-19.iff",
+                "watermark.iff": "watermark_espn.iff",
+                "gooeyoverlaysstatic.iff": "wipe_espn.iff",
+                "logo000.iff": "espn_18-19/logo000.iff",
+                "logo001.iff": "espn_18-19/logo001.iff",
+                "logo002.iff": "espn_18-19/logo002.iff",
+                "logo003.iff": "espn_18-19/logo003.iff",
+                "logo004.iff": "espn_18-19/logo004.iff",
+                "logo005.iff": "espn_18-19/logo005.iff",
+                "logo006.iff": "espn_18-19/logo006.iff",
+                "logo008.iff": "espn_18-19/logo008.iff",
+                "logo009.iff": "espn_18-19/logo009.iff",
+                "logo010.iff": "espn_18-19/logo010.iff",
+                "logo011.iff": "espn_18-19/logo011.iff",
+                "logo012.iff": "espn_18-19/logo012.iff",
+                "logo013.iff": "espn_18-19/logo013.iff",
+                "logo014.iff": "espn_18-19/logo014.iff",
+                "logo015.iff": "espn_18-19/logo015.iff",
+                "logo016.iff": "espn_18-19/logo016.iff",
+                "logo017.iff": "espn_18-19/logo017.iff",
+                "logo018.iff": "espn_18-19/logo018.iff",
+                "logo019.iff": "espn_18-19/logo019.iff",
+                "logo020.iff": "espn_18-19/logo020.iff",
+                "logo021.iff": "espn_18-19/logo021.iff",
+                "logo022.iff": "espn_18-19/logo022.iff",
+                "logo023.iff": "espn_18-19/logo023.iff",
+                "logo024.iff": "espn_18-19/logo024.iff",
+                "logo025.iff": "espn_18-19/logo025.iff",
+                "logo026.iff": "espn_18-19/logo026.iff",
+                "logo027.iff": "espn_18-19/logo027.iff",
+                "logo028.iff": "espn_18-19/logo028.iff",
+                "logo029.iff": "espn_18-19/logo029.iff",
+                "logo031.iff": "espn_18-19/logo031.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
+                "titlecard2.iff": "titlecard2_espn.iff"
             },
             "ESPN_NCAA": {
                 "newbreakboard.iff": "newbreakboard_espn_12.iff",
                 "newscorebug.iff": "scorebug_espn_ncaa.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
+                "titlecard2.iff": "titlecard2_espn.iff"
             },
             "FOX": {
                 "newbreakboard.iff": "newbreakboard_fox.iff",
                 "newscorebug.iff": "scorebug_fox.iff",
                 "watermark.iff": "watermark_fox.iff",
-                "gooeyoverlaysstatic.iff": "wipe_fox.iff"
+                "gooeyoverlaysstatic.iff": "wipe_fox.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_fox.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_fox.iff",
+                "titlecard2.iff": "titlecard2_fox.iff"
             },
             "NBATV": {
                 "newscorebug.iff": "scorebug_nbatv.iff",
@@ -144,35 +263,50 @@
                 "newscorebug.iff": "scorebug_nbc.iff",
                 "watermark.iff": "watermark_nbc.iff",
                 "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
+                "titlecard2.iff": "titlecard2_nbc.iff"
             },
             "NBC_BAY_AREA": {
-                "newbreakboard.iff": "newbreakboard_nbc.iff",
+                "newbreakboard.iff": "newbreakboard_nbc_bay_area.iff",
                 "newscorebug.iff": "scorebug_nbc.iff",
                 "watermark.iff": "watermark_nbc_bay_area.iff",
                 "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
+                "titlecard2.iff": "titlecard2_nbc.iff"
             },
             "NBC_BOSTON": {
-                "newbreakboard.iff": "newbreakboard_nbc.iff",
+                "newbreakboard.iff": "newbreakboard_nbc_boston.iff",
                 "newscorebug.iff": "scorebug_nbc.iff",
                 "watermark.iff": "watermark_nbc_boston.iff",
                 "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
+                "titlecard2.iff": "titlecard2_nbc.iff"
             },
             "NBC_CALIFORNIA": {
-                "newbreakboard.iff": "newbreakboard_nbc.iff",
+                "newbreakboard.iff": "newbreakboard_nbc_california.iff",
                 "newscorebug.iff": "scorebug_nbc.iff",
                 "watermark.iff": "watermark_nbc_california.iff",
                 "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
+                "titlecard2.iff": "titlecard2_nbc.iff"
             },
             "NBC_CHICAGO": {
-                "newbreakboard.iff": "newbreakboard_nbc.iff",
+                "newbreakboard.iff": "newbreakboard_nbc_chicago.iff",
                 "newscorebug.iff": "scorebug_nbc.iff",
                 "watermark.iff": "watermark_nbc_chicago.iff",
                 "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
+                "titlecard2.iff": "titlecard2_nbc.iff"
             },
             "NBC_CLASSIC": {
                 "newbreakboard.iff": "newbreakboard_nbc.iff",
@@ -200,59 +334,109 @@
                 "clothing/clothing_resource_nike_swoosh_embroidery_tex.iff": "clothing_90s/clothing_resource_nike_swoosh_embroidery_tex.iff",
                 "clothing/clothing_resource_polo_tuck_color_tex.iff": "clothing_90s/clothing_resource_polo_tuck_color_tex.iff",
                 "clothing/clothing_resource_shirt_referee_color_tex.iff": "clothing_90s/clothing_resource_shirt_referee_color_tex.iff",
-                "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
+                "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
+                "titlecard2.iff": "titlecard2_nbc.iff"
             },
             "NBC_PHILADELPHIA": {
-                "newbreakboard.iff": "newbreakboard_nbc.iff",
+                "newbreakboard.iff": "newbreakboard_nbc_philadelphia.iff",
                 "newscorebug.iff": "scorebug_nbc.iff",
                 "watermark.iff": "watermark_nbc_philadelphia.iff",
                 "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
+                "titlecard2.iff": "titlecard2_nbc.iff"
             },
             "NBC_PNW": {
-                "newbreakboard.iff": "newbreakboard_nbc.iff",
+                "newbreakboard.iff": "newbreakboard_nbc_pnw.iff",
                 "newscorebug.iff": "scorebug_nbc_pnw.iff",
                 "watermark.iff": "watermark_nbc_pnw.iff",
                 "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc_pnw.iff"
+                "pregame/studio_arenadesk_int.iff": "pregame/studio_arenadesk_int_nbc_pnw.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc_pnw.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
+                "titlecard2.iff": "titlecard2_nbc.iff"
             },
             "NBC_SNF": {
                 "newbreakboard.iff": "newbreakboard_nbc.iff",
                 "newscorebug.iff": "scorebug_nbc_snf.iff",
                 "watermark.iff": "watermark_nbc.iff",
                 "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
+                "titlecard2.iff": "titlecard2_nbc.iff"
             },
             "NBC_WASHINGTON": {
-                "newbreakboard.iff": "newbreakboard_nbc.iff",
+                "newbreakboard.iff": "newbreakboard_nbc_washington.iff",
                 "newscorebug.iff": "scorebug_nbc.iff",
                 "watermark.iff": "watermark_nbc_washington.iff",
                 "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff"
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
+                "titlecard2.iff": "titlecard2_nbc.iff"
             },
             "MSG": {
                 "newbreakboard.iff": "newbreakboard_msg.iff",
                 "newscorebug.iff": "scorebug_msg.iff",
-                "watermark.iff": "watermark_msg.iff"
+                "watermark.iff": "watermark_msg.iff",
+                "gooeyoverlaysstatic.iff": "wipe_msg.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_msg.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_msg.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_msg.iff",
+                "titlecard2.iff": "titlecard2_msg.iff"
             },
             "SPECTRUM": {
                 "newbreakboard.iff": "newbreakboard_spectrum.iff",
-                "newscorebug.iff": "scorebug_spectrum.iff"
+                "newscorebug.iff": "scorebug_spectrum.iff",
+                "watermark.iff": "watermark_spectrum.iff",
+                "gooeyoverlaysstatic.iff": "wipe_spectrum.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_spectrum.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_spectrum.iff"
+            },
+            "SPECTRUM_LAKERS": {
+                "newbreakboard.iff": "newbreakboard_spectrum_lakers.iff",
+                "newscorebug.iff": "scorebug_spectrum.iff",
+                "watermark.iff": "watermark_spectrum.iff",
+                "gooeyoverlaysstatic.iff": "wipe_spectrum.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_spectrum_lakers.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_spectrum.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_spectrum.iff",
+                "titlecard2.iff": "titlecard2_spectrum_lakers.iff"
             },
             "TNT": {
-                "newscorebug.iff": "scorebug_tnt.iff",
-                "watermark.iff": "watermark_tnt.iff",
                 "gooeyoverlaysstatic.iff": "wipe_tnt.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt.iff"
+                "newbreakboard.iff": "newbreakboard_tnt.iff",
+                "newscorebug.iff": "scorebug_tnt.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt.iff",
+                "studioshowbumperhalftime.iff": "studioshowbumperhalftime_tnt.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_tnt.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_tnt.iff",
+                "titlecard2.iff": "titlecard2_tnt.iff",
+                "watermark.iff": "watermark_tnt.iff"
             },
             "TNT_14": {
+                "newbreakboard.iff": "newbreakboard_tnt.iff",
                 "newscorebug.iff": "scorebug_tnt_14.iff",
+                "studioshowbumperhalftime.iff": "studioshowbumperhalftime_tnt.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_tnt.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_tnt.iff",
+                "titlecard2.iff": "titlecard2_tnt.iff",
                 "watermark.iff": "watermark_tnt.iff",
                 "gooeyoverlaysstatic.iff": "wipe_tnt.iff",
                 "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt.iff"
             },
             "TNT_92": {
+                "newbreakboard.iff": "newbreakboard_tnt.iff",
                 "newscorebug.iff": "scorebug_tnt_92.iff",
+                "studioshowbumperhalftime.iff": "studioshowbumperhalftime_tnt.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_tnt.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_tnt.iff",
+                "titlecard2.iff": "titlecard2_tnt.iff",
                 "watermark.iff": "watermark_tnt_92.iff",
                 "gooeyoverlaysstatic.iff": "wipe_tnt_92.iff",
                 "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt_92.iff",
@@ -279,7 +463,12 @@
                 "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
             },
             "TNT_98": {
+                "newbreakboard.iff": "newbreakboard_tnt.iff",
                 "newscorebug.iff": "scorebug_tnt_98.iff",
+                "studioshowbumperhalftime.iff": "studioshowbumperhalftime_tnt.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_tnt.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_tnt.iff",
+                "titlecard2.iff": "titlecard2_tnt.iff",
                 "watermark.iff": "watermark_tnt_98.iff",
                 "gooeyoverlaysstatic.iff": "wipe_tnt_98.iff",
                 "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt_92.iff",
@@ -306,13 +495,24 @@
                 "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
             },
             "TSN": {
+                "gooeyoverlaysstatic.iff": "wipe_tsn.iff",
                 "newscorebug.iff": "scorebug_tsn.iff",
-                "watermark.iff": "watermark_tsn.iff",
-                "gooeyoverlaysstatic.iff": "wipe_tsn.iff"
+                "studioshowbumperhalftime.iff": "studioshowbumperhalftime_tsn.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_tsn.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_tsn.iff",
+                "titlecard2.iff": "titlecard2_tsn.iff",
+                "watermark.iff": "watermark_tsn.iff"
             },
             "YES": {
+                "gooeyoverlaysstatic.iff": "wipe_yes.iff",
                 "newbreakboard.iff": "newbreakboard_yes.iff",
-                "newscorebug.iff": "scorebug_yes.iff"
+                "newscorebug.iff": "scorebug_yes.iff",
+                "pregame/studio_arenadesk_int.iff": "pregame/studio_arenadesk_int_yes.iff",
+                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_yes.iff",
+                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_yes.iff",
+                "studioshowbumperpregame.iff": "studioshowbumperpregame_yes.iff",
+                "titlecard2.iff": "titlecard2_yes.iff",
+                "watermark.iff": "watermark_yes.iff"
             }
         },
         "teams": {
@@ -468,7 +668,7 @@
             },
             "15": {
                 "name": "Lakers",
-                "file": "SPECTRUM",
+                "file": "SPECTRUM_LAKERS",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -2058,7 +2258,7 @@
             },
             "893": {
                 "name": "Spurs",
-                "file": "TNT_14",
+                "file": "ESPN_13-16",
                 "useColors": 0,
                 "colors": [
                     "000000",
