@@ -8,7 +8,8 @@
         "loadTeamFiles": 1,
         "modLoadingPriority": 1,
         "blacktopJersey": 1,
-        "playerEditorPlus": 1
+        "playerEditorPlus": 1,
+        "loadJerseyByPlayer": 1
     },
     "gui": {
         "enabled": 1,
@@ -19,49 +20,35 @@
     },
     "teamFiles": {
         "files": {
-            "example": {
-                "newscorebug.iff": "YourScoreBugFile.iff",
-                "watermark.iff": "YourWatermarkFile.iff",
-                "gooeyoverlaysstatic.iff": "YourwipeFile.iff",
-                "nbaball.iff": "YourBallFile.iff",
-                "theOriginFileName": "YourFileName"
-            },
             "ALTITUDE": {
-                "newbreakboard.iff": "newbreakboard_altitude.iff",
-                "newscorebug.iff": "scorebug_altitude.iff",
-                "watermark.iff": "watermark_altitude.iff",
-                "gooeyoverlaysstatic.iff": "wipe_altitude.iff",
-                "pregame/studio_arenadesk_int.iff": "pregame/studio_arenadesk_int_altitude.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_altitude.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_altitude.iff",
-                "titlecard2.iff": "titlecard2_altitude.iff"
+                "newbreakboard.iff": "mod/altitude/newbreakboard.iff",
+                "newscorebug.iff": "mod/altitude/newscorebug.iff",
+                "logo501.iff": "mod/altitude/logo501.iff",
+                "lower3rd.iff": "mod/altitude/lower3rd.iff",
+                "watermark.iff": "mod/altitude/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/altitude/wipe.iff",
+                "pregame/studio_arenadesk_int.iff": "mod/altitude/studio_arenadesk_int.iff",
+                "studioshowbumperpostgame.iff": "mod/altitude/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/altitude/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/altitude/titlecard2.iff"
             },
-            "ATT_JAZZ": {
-                "gooeyoverlaysstatic.iff": "wipe_att.iff",
-                "newbreakboard.iff": "newbreakboard_att_jazz.iff",
-                "newscorebug.iff": "scorebug_att.iff",
-                "pregame/studio_arenadesk_int.iff": "pregame/studio_arenadesk_int_att_jazz.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_att_jazz.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_att.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_att.iff",
-                "titlecard2.iff": "titlecard2_att.iff",
-                "watermark.iff": "watermark_att.iff"
-            },
-            "ATT_ROCKETS": {
-                "gooeyoverlaysstatic.iff": "wipe_att.iff",
-                "newbreakboard.iff": "newbreakboard_att_rockets.iff",
-                "newscorebug.iff": "scorebug_att.iff",
-                "pregame/studio_arenadesk_int.iff": "pregame/studio_arenadesk_int_att_rockets.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_att_rockets.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_att.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_att.iff",
-                "titlecard2.iff": "titlecard2_att.iff",
-                "watermark.iff": "watermark_att.iff"
+            "ATT": {
+                "gooeyoverlaysstatic.iff": "mod/att/wipe.iff",
+                "newscorebug.iff": "mod/att/newscorebug.iff",
+                "logo501.iff": "mod/att/logo501.iff",
+                "lower3rd.iff": "mod/att/lower3rd.iff",
+                "studioshowbumperpostgame.iff": "mod/att/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/att/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/att/titlecard2.iff",
+                "watermark.iff": "mod/att/watermark.iff",
+                "newbreakboard.iff": "mod/att/{teamid}/newbreakboard.iff",
+                "pregame/studio_arenadesk_int.iff": "mod/att/{teamid}/pregame/studio_arenadesk_int.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/att/{teamid}/pregame/studio_broadcastset_int.iff"
             },
             "CBS_85": {
-                "newscorebug.iff": "scorebug_cbs_85.iff",
-                "watermark.iff": "watermark_cbs_85.iff",
-                "gooeyoverlaysstatic.iff": "wipe_cbs_85.iff",
+                "newscorebug.iff": "mod/cbs/85/newscorebug.iff",
+                "watermark.iff": "mod/cbs/85/mod/cbs/85/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/cbs/85/wipe.iff",
                 "clothing/a_logo_nba.iff": "clothing_90s/a_logo_nba.iff",
                 "clothing/clothing_resource_nba_2k19_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_c_tex.iff",
                 "clothing/clothing_resource_nba_2k19_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_colorizable_c_tex.iff",
@@ -85,235 +72,9 @@
                 "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
             },
             "CBS_NCAA": {
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_cbs_ncaa.iff"
+                "pregame/studio_broadcastset_int.iff": "mod/cbs/ncaa/studio_broadcastset_int_cbs_ncaa.iff"
             },
-            "ESPN": {
-                "newbreakboard.iff": "newbreakboard_espn_12.iff",
-                "newscorebug.iff": "espn_19-20/scorebug_espn_19-20.iff",
-                "watermark.iff": "watermark_espn.iff",
-                "gooeyoverlaysstatic.iff": "wipe_espn.iff",
-                "logo000.iff": "espn_19-20/logo000.iff",
-                "logo001.iff": "espn_19-20/logo001.iff",
-                "logo002.iff": "espn_19-20/logo002.iff",
-                "logo003.iff": "espn_19-20/logo003.iff",
-                "logo004.iff": "espn_19-20/logo004.iff",
-                "logo005.iff": "espn_19-20/logo005.iff",
-                "logo006.iff": "espn_19-20/logo006.iff",
-                "logo008.iff": "espn_19-20/logo008.iff",
-                "logo009.iff": "espn_19-20/logo009.iff",
-                "logo010.iff": "espn_19-20/logo010.iff",
-                "logo011.iff": "espn_19-20/logo011.iff",
-                "logo012.iff": "espn_19-20/logo012.iff",
-                "logo013.iff": "espn_19-20/logo013.iff",
-                "logo014.iff": "espn_19-20/logo014.iff",
-                "logo015.iff": "espn_19-20/logo015.iff",
-                "logo016.iff": "espn_19-20/logo016.iff",
-                "logo017.iff": "espn_19-20/logo017.iff",
-                "logo018.iff": "espn_19-20/logo018.iff",
-                "logo019.iff": "espn_19-20/logo019.iff",
-                "logo020.iff": "espn_19-20/logo020.iff",
-                "logo021.iff": "espn_19-20/logo021.iff",
-                "logo022.iff": "espn_19-20/logo022.iff",
-                "logo023.iff": "espn_19-20/logo023.iff",
-                "logo024.iff": "espn_19-20/logo024.iff",
-                "logo025.iff": "espn_19-20/logo025.iff",
-                "logo026.iff": "espn_19-20/logo026.iff",
-                "logo027.iff": "espn_19-20/logo027.iff",
-                "logo028.iff": "espn_19-20/logo028.iff",
-                "logo029.iff": "espn_19-20/logo029.iff",
-                "logo031.iff": "espn_19-20/logo031.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
-                "titlecard2.iff": "titlecard2_espn.iff"
-            },
-            "ESPN_05": {
-                "newbreakboard.iff": "newbreakboard_espn_12.iff",
-                "newscorebug.iff": "scorebug_espn_05.iff",
-                "watermark.iff": "watermark_espn_05.iff",
-                "gooeyoverlaysstatic.iff": "wipe_espn_05.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
-                "titlecard2.iff": "titlecard2_espn.iff"
-            },
-            "ESPN_07": {
-                "newbreakboard.iff": "newbreakboard_espn_12.iff",
-                "newscorebug.iff": "scorebug_espn_07.iff",
-                "watermark.iff": "watermark_espn_07.iff",
-                "gooeyoverlaysstatic.iff": "wipe_espn_07.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn_07.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
-                "titlecard2.iff": "titlecard2_espn.iff"
-            },
-            "ESPN_12": {
-                "newbreakboard.iff": "newbreakboard_espn_12.iff",
-                "newscorebug.iff": "scorebug_espn_12.iff",
-                "watermark.iff": "watermark_espn_07.iff",
-                "gooeyoverlaysstatic.iff": "wipe_espn_07.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn_07.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
-                "titlecard2.iff": "titlecard2_espn.iff"
-            },
-            "ESPN_13-16": {
-                "newbreakboard.iff": "newbreakboard_espn_12.iff",
-                "newscorebug.iff": "scorebug_espn_13-16.iff",
-                "watermark.iff": "watermark_espn_07.iff",
-                "gooeyoverlaysstatic.iff": "wipe_espn_07.iff",
-                "logo000.iff": "espn_13-16/logo000.iff",
-                "logo001.iff": "espn_13-16/logo001.iff",
-                "logo002.iff": "espn_13-16/logo002.iff",
-                "logo003.iff": "espn_13-16/logo003.iff",
-                "logo004.iff": "espn_13-16/logo004.iff",
-                "logo005.iff": "espn_13-16/logo005.iff",
-                "logo006.iff": "espn_13-16/logo006.iff",
-                "logo008.iff": "espn_13-16/logo008.iff",
-                "logo009.iff": "espn_13-16/logo009.iff",
-                "logo010.iff": "espn_13-16/logo010.iff",
-                "logo011.iff": "espn_13-16/logo011.iff",
-                "logo012.iff": "espn_13-16/logo012.iff",
-                "logo013.iff": "espn_13-16/logo013.iff",
-                "logo014.iff": "espn_13-16/logo014.iff",
-                "logo015.iff": "espn_13-16/logo015.iff",
-                "logo016.iff": "espn_13-16/logo016.iff",
-                "logo017.iff": "espn_13-16/logo017.iff",
-                "logo018.iff": "espn_13-16/logo018.iff",
-                "logo019.iff": "espn_13-16/logo019.iff",
-                "logo020.iff": "espn_13-16/logo020.iff",
-                "logo021.iff": "espn_13-16/logo021.iff",
-                "logo022.iff": "espn_13-16/logo022.iff",
-                "logo023.iff": "espn_13-16/logo023.iff",
-                "logo024.iff": "espn_13-16/logo024.iff",
-                "logo025.iff": "espn_13-16/logo025.iff",
-                "logo026.iff": "espn_13-16/logo026.iff",
-                "logo027.iff": "espn_13-16/logo027.iff",
-                "logo028.iff": "espn_13-16/logo028.iff",
-                "logo029.iff": "espn_13-16/logo029.iff",
-                "logo031.iff": "espn_13-16/logo031.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn_07.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
-                "titlecard2.iff": "titlecard2_espn.iff"
-            },
-            "ESPN_18-19": {
-                "newbreakboard.iff": "newbreakboard_espn_12.iff",
-                "newscorebug.iff": "espn_18-19/scorebug_espn_18-19.iff",
-                "watermark.iff": "watermark_espn.iff",
-                "gooeyoverlaysstatic.iff": "wipe_espn.iff",
-                "logo000.iff": "espn_18-19/logo000.iff",
-                "logo001.iff": "espn_18-19/logo001.iff",
-                "logo002.iff": "espn_18-19/logo002.iff",
-                "logo003.iff": "espn_18-19/logo003.iff",
-                "logo004.iff": "espn_18-19/logo004.iff",
-                "logo005.iff": "espn_18-19/logo005.iff",
-                "logo006.iff": "espn_18-19/logo006.iff",
-                "logo008.iff": "espn_18-19/logo008.iff",
-                "logo009.iff": "espn_18-19/logo009.iff",
-                "logo010.iff": "espn_18-19/logo010.iff",
-                "logo011.iff": "espn_18-19/logo011.iff",
-                "logo012.iff": "espn_18-19/logo012.iff",
-                "logo013.iff": "espn_18-19/logo013.iff",
-                "logo014.iff": "espn_18-19/logo014.iff",
-                "logo015.iff": "espn_18-19/logo015.iff",
-                "logo016.iff": "espn_18-19/logo016.iff",
-                "logo017.iff": "espn_18-19/logo017.iff",
-                "logo018.iff": "espn_18-19/logo018.iff",
-                "logo019.iff": "espn_18-19/logo019.iff",
-                "logo020.iff": "espn_18-19/logo020.iff",
-                "logo021.iff": "espn_18-19/logo021.iff",
-                "logo022.iff": "espn_18-19/logo022.iff",
-                "logo023.iff": "espn_18-19/logo023.iff",
-                "logo024.iff": "espn_18-19/logo024.iff",
-                "logo025.iff": "espn_18-19/logo025.iff",
-                "logo026.iff": "espn_18-19/logo026.iff",
-                "logo027.iff": "espn_18-19/logo027.iff",
-                "logo028.iff": "espn_18-19/logo028.iff",
-                "logo029.iff": "espn_18-19/logo029.iff",
-                "logo031.iff": "espn_18-19/logo031.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
-                "titlecard2.iff": "titlecard2_espn.iff"
-            },
-            "ESPN_NCAA": {
-                "newbreakboard.iff": "newbreakboard_espn_12.iff",
-                "newscorebug.iff": "scorebug_espn_ncaa.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_espn.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_espn.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_espn.iff",
-                "titlecard2.iff": "titlecard2_espn.iff"
-            },
-            "FOX": {
-                "newbreakboard.iff": "newbreakboard_fox.iff",
-                "newscorebug.iff": "scorebug_fox.iff",
-                "watermark.iff": "watermark_fox.iff",
-                "gooeyoverlaysstatic.iff": "wipe_fox.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_fox.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_fox.iff",
-                "titlecard2.iff": "titlecard2_fox.iff"
-            },
-            "NBATV": {
-                "newscorebug.iff": "scorebug_nbatv.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbatv.iff"
-            },
-            "NBC": {
-                "newbreakboard.iff": "newbreakboard_nbc.iff",
-                "newscorebug.iff": "scorebug_nbc.iff",
-                "watermark.iff": "watermark_nbc.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
-                "titlecard2.iff": "titlecard2_nbc.iff"
-            },
-            "NBC_BAY_AREA": {
-                "newbreakboard.iff": "newbreakboard_nbc_bay_area.iff",
-                "newscorebug.iff": "scorebug_nbc.iff",
-                "watermark.iff": "watermark_nbc_bay_area.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
-                "titlecard2.iff": "titlecard2_nbc.iff"
-            },
-            "NBC_BOSTON": {
-                "newbreakboard.iff": "newbreakboard_nbc_boston.iff",
-                "newscorebug.iff": "scorebug_nbc.iff",
-                "watermark.iff": "watermark_nbc_boston.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
-                "titlecard2.iff": "titlecard2_nbc.iff"
-            },
-            "NBC_CALIFORNIA": {
-                "newbreakboard.iff": "newbreakboard_nbc_california.iff",
-                "newscorebug.iff": "scorebug_nbc.iff",
-                "watermark.iff": "watermark_nbc_california.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
-                "titlecard2.iff": "titlecard2_nbc.iff"
-            },
-            "NBC_CHICAGO": {
-                "newbreakboard.iff": "newbreakboard_nbc_chicago.iff",
-                "newscorebug.iff": "scorebug_nbc.iff",
-                "watermark.iff": "watermark_nbc_chicago.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
-                "titlecard2.iff": "titlecard2_nbc.iff"
-            },
-            "NBC_CLASSIC": {
-                "newbreakboard.iff": "newbreakboard_nbc.iff",
-                "newscorebug.iff": "scorebug_nbc_classic.iff",
-                "watermark.iff": "watermark_nbc_classic.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc_classic.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc_classic.iff",
+            "CLOTHING_90S": {
                 "clothing/a_logo_nba.iff": "clothing_90s/a_logo_nba.iff",
                 "clothing/clothing_resource_nba_2k19_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_c_tex.iff",
                 "clothing/clothing_resource_nba_2k19_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_colorizable_c_tex.iff",
@@ -334,112 +95,550 @@
                 "clothing/clothing_resource_nike_swoosh_embroidery_tex.iff": "clothing_90s/clothing_resource_nike_swoosh_embroidery_tex.iff",
                 "clothing/clothing_resource_polo_tuck_color_tex.iff": "clothing_90s/clothing_resource_polo_tuck_color_tex.iff",
                 "clothing/clothing_resource_shirt_referee_color_tex.iff": "clothing_90s/clothing_resource_shirt_referee_color_tex.iff",
-                "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
-                "titlecard2.iff": "titlecard2_nbc.iff"
+                "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
             },
-            "NBC_PHILADELPHIA": {
-                "newbreakboard.iff": "newbreakboard_nbc_philadelphia.iff",
-                "newscorebug.iff": "scorebug_nbc.iff",
-                "watermark.iff": "watermark_nbc_philadelphia.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
-                "titlecard2.iff": "titlecard2_nbc.iff"
+            "ESPN": {
+                "newbreakboard.iff": "mod/espn/19-20/newbreakboard.iff",
+                "newscorebug.iff": "mod/espn/19-20/newscorebug.iff",
+                "logo501.iff": "mod/espn/logo501.iff",
+                "lower3rd.iff": "mod/espn/lower3rd.iff",
+                "watermark.iff": "mod/espn/19-20/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/espn/19-20/wipe.iff",
+                "logo000.iff": "mod/espn/19-20/logo000.iff",
+                "logo001.iff": "mod/espn/19-20/logo001.iff",
+                "logo002.iff": "mod/espn/19-20/logo002.iff",
+                "logo003.iff": "mod/espn/19-20/logo003.iff",
+                "logo004.iff": "mod/espn/19-20/logo004.iff",
+                "logo005.iff": "mod/espn/19-20/logo005.iff",
+                "logo006.iff": "mod/espn/19-20/logo006.iff",
+                "logo008.iff": "mod/espn/19-20/logo008.iff",
+                "logo009.iff": "mod/espn/19-20/logo009.iff",
+                "logo010.iff": "mod/espn/19-20/logo010.iff",
+                "logo011.iff": "mod/espn/19-20/logo011.iff",
+                "logo012.iff": "mod/espn/19-20/logo012.iff",
+                "logo013.iff": "mod/espn/19-20/logo013.iff",
+                "logo014.iff": "mod/espn/19-20/logo014.iff",
+                "logo015.iff": "mod/espn/19-20/logo015.iff",
+                "logo016.iff": "mod/espn/19-20/logo016.iff",
+                "logo017.iff": "mod/espn/19-20/logo017.iff",
+                "logo018.iff": "mod/espn/19-20/logo018.iff",
+                "logo019.iff": "mod/espn/19-20/logo019.iff",
+                "logo020.iff": "mod/espn/19-20/logo020.iff",
+                "logo021.iff": "mod/espn/19-20/logo021.iff",
+                "logo022.iff": "mod/espn/19-20/logo022.iff",
+                "logo023.iff": "mod/espn/19-20/logo023.iff",
+                "logo024.iff": "mod/espn/19-20/logo024.iff",
+                "logo025.iff": "mod/espn/19-20/logo025.iff",
+                "logo026.iff": "mod/espn/19-20/logo026.iff",
+                "logo027.iff": "mod/espn/19-20/logo027.iff",
+                "logo028.iff": "mod/espn/19-20/logo028.iff",
+                "logo029.iff": "mod/espn/19-20/logo029.iff",
+                "logo031.iff": "mod/espn/19-20/logo031.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/espn/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/espn/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/espn/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/espn/titlecard2.iff"
             },
-            "NBC_PNW": {
-                "newbreakboard.iff": "newbreakboard_nbc_pnw.iff",
-                "newscorebug.iff": "scorebug_nbc_pnw.iff",
-                "watermark.iff": "watermark_nbc_pnw.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_arenadesk_int.iff": "pregame/studio_arenadesk_int_nbc_pnw.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc_pnw.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
-                "titlecard2.iff": "titlecard2_nbc.iff"
+            "ESPN_05": {
+                "newbreakboard.iff": "mod/espn/11-12/newbreakboard.iff",
+                "newscorebug.iff": "mod/espn/04-05/newscorebug.iff",
+                "logo501.iff": "mod/espn/logo501.iff",
+                "lower3rd.iff": "mod/espn/lower3rd.iff",
+                "watermark.iff": "mod/espn/04-05/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/espn/04-05/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/espn/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/espn/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/espn/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/espn/titlecard2.iff"
             },
-            "NBC_SNF": {
-                "newbreakboard.iff": "newbreakboard_nbc.iff",
-                "newscorebug.iff": "scorebug_nbc_snf.iff",
-                "watermark.iff": "watermark_nbc.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
-                "titlecard2.iff": "titlecard2_nbc.iff"
+            "ESPN_07": {
+                "newbreakboard.iff": "mod/espn/11-12/newbreakboard.iff",
+                "newscorebug.iff": "mod/espn/06-07/newscorebug.iff",
+                "logo501.iff": "mod/espn/logo501.iff",
+                "lower3rd.iff": "mod/espn/lower3rd.iff",
+                "watermark.iff": "mod/espn/06-07/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/espn/06-07/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/espn/06-07/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/espn/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/espn/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/espn/titlecard2.iff"
             },
-            "NBC_WASHINGTON": {
-                "newbreakboard.iff": "newbreakboard_nbc_washington.iff",
-                "newscorebug.iff": "scorebug_nbc.iff",
-                "watermark.iff": "watermark_nbc_washington.iff",
-                "gooeyoverlaysstatic.iff": "wipe_nbc.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_nbc.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_nbc.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_nbc.iff",
-                "titlecard2.iff": "titlecard2_nbc.iff"
+            "ESPN_12": {
+                "newbreakboard.iff": "mod/espn/11-12/newbreakboard.iff",
+                "newscorebug.iff": "mod/espn/11-12/newscorebug.iff",
+                "logo501.iff": "mod/espn/logo501.iff",
+                "lower3rd.iff": "mod/espn/lower3rd.iff",
+                "watermark.iff": "mod/espn/11-12/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/espn/06-07/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/espn/06-07/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/espn/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/espn/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/espn/titlecard2.iff"
+            },
+            "ESPN_13-16": {
+                "newbreakboard.iff": "mod/espn/13-16/newbreakboard.iff",
+                "newscorebug.iff": "mod/espn/13-16/newscorebug.iff",
+                "logo501.iff": "mod/espn/logo501.iff",
+                "lower3rd.iff": "mod/espn/lower3rd.iff",
+                "watermark.iff": "mod/espn/13-16/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/espn/06-07/wipe.iff",
+                "logo000.iff": "mod/espn/13-16/logo000.iff",
+                "logo001.iff": "mod/espn/13-16/logo001.iff",
+                "logo002.iff": "mod/espn/13-16/logo002.iff",
+                "logo003.iff": "mod/espn/13-16/logo003.iff",
+                "logo004.iff": "mod/espn/13-16/logo004.iff",
+                "logo005.iff": "mod/espn/13-16/logo005.iff",
+                "logo006.iff": "mod/espn/13-16/logo006.iff",
+                "logo008.iff": "mod/espn/13-16/logo008.iff",
+                "logo009.iff": "mod/espn/13-16/logo009.iff",
+                "logo010.iff": "mod/espn/13-16/logo010.iff",
+                "logo011.iff": "mod/espn/13-16/logo011.iff",
+                "logo012.iff": "mod/espn/13-16/logo012.iff",
+                "logo013.iff": "mod/espn/13-16/logo013.iff",
+                "logo014.iff": "mod/espn/13-16/logo014.iff",
+                "logo015.iff": "mod/espn/13-16/logo015.iff",
+                "logo016.iff": "mod/espn/13-16/logo016.iff",
+                "logo017.iff": "mod/espn/13-16/logo017.iff",
+                "logo018.iff": "mod/espn/13-16/logo018.iff",
+                "logo019.iff": "mod/espn/13-16/logo019.iff",
+                "logo020.iff": "mod/espn/13-16/logo020.iff",
+                "logo021.iff": "mod/espn/13-16/logo021.iff",
+                "logo022.iff": "mod/espn/13-16/logo022.iff",
+                "logo023.iff": "mod/espn/13-16/logo023.iff",
+                "logo024.iff": "mod/espn/13-16/logo024.iff",
+                "logo025.iff": "mod/espn/13-16/logo025.iff",
+                "logo026.iff": "mod/espn/13-16/logo026.iff",
+                "logo027.iff": "mod/espn/13-16/logo027.iff",
+                "logo028.iff": "mod/espn/13-16/logo028.iff",
+                "logo029.iff": "mod/espn/13-16/logo029.iff",
+                "logo031.iff": "mod/espn/13-16/logo031.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/espn/06-07/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/espn/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/espn/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/espn/titlecard2.iff"
+            },
+            "ESPN_17-18": {
+                "newbreakboard.iff": "mod/espn/17-18/newbreakboard.iff",
+                "newscorebug.iff": "mod/espn/17-18/newscorebug.iff",
+                "logo501.iff": "mod/espn/logo501.iff",
+                "lower3rd.iff": "mod/espn/lower3rd.iff",
+                "watermark.iff": "mod/espn/17-18/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/espn/wipe.iff",
+                "logo000.iff": "mod/espn/17-18/logo000.iff",
+                "logo001.iff": "mod/espn/17-18/logo001.iff",
+                "logo002.iff": "mod/espn/17-18/logo002.iff",
+                "logo003.iff": "mod/espn/17-18/logo003.iff",
+                "logo004.iff": "mod/espn/17-18/logo004.iff",
+                "logo005.iff": "mod/espn/17-18/logo005.iff",
+                "logo006.iff": "mod/espn/17-18/logo006.iff",
+                "logo008.iff": "mod/espn/17-18/logo008.iff",
+                "logo009.iff": "mod/espn/17-18/logo009.iff",
+                "logo010.iff": "mod/espn/17-18/logo010.iff",
+                "logo011.iff": "mod/espn/17-18/logo011.iff",
+                "logo012.iff": "mod/espn/17-18/logo012.iff",
+                "logo013.iff": "mod/espn/17-18/logo013.iff",
+                "logo014.iff": "mod/espn/17-18/logo014.iff",
+                "logo015.iff": "mod/espn/17-18/logo015.iff",
+                "logo016.iff": "mod/espn/17-18/logo016.iff",
+                "logo017.iff": "mod/espn/17-18/logo017.iff",
+                "logo018.iff": "mod/espn/17-18/logo018.iff",
+                "logo019.iff": "mod/espn/17-18/logo019.iff",
+                "logo020.iff": "mod/espn/17-18/logo020.iff",
+                "logo021.iff": "mod/espn/17-18/logo021.iff",
+                "logo022.iff": "mod/espn/17-18/logo022.iff",
+                "logo023.iff": "mod/espn/17-18/logo023.iff",
+                "logo024.iff": "mod/espn/17-18/logo024.iff",
+                "logo025.iff": "mod/espn/17-18/logo025.iff",
+                "logo026.iff": "mod/espn/17-18/logo026.iff",
+                "logo027.iff": "mod/espn/17-18/logo027.iff",
+                "logo028.iff": "mod/espn/17-18/logo028.iff",
+                "logo029.iff": "mod/espn/17-18/logo029.iff",
+                "logo031.iff": "mod/espn/17-18/logo031.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/espn/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/espn/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/espn/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/espn/titlecard2.iff"
+            },
+            "ESPN_18-19": {
+                "newbreakboard.iff": "mod/espn/18-19/newbreakboard.iff",
+                "newscorebug.iff": "mod/espn/18-19/newscorebug.iff",
+                "logo501.iff": "mod/espn/logo501.iff",
+                "lower3rd.iff": "mod/espn/lower3rd.iff",
+                "watermark.iff": "mod/espn/18-19/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/espn/wipe.iff",
+                "logo000.iff": "mod/espn/18-19/logo000.iff",
+                "logo001.iff": "mod/espn/18-19/logo001.iff",
+                "logo002.iff": "mod/espn/18-19/logo002.iff",
+                "logo003.iff": "mod/espn/18-19/logo003.iff",
+                "logo004.iff": "mod/espn/18-19/logo004.iff",
+                "logo005.iff": "mod/espn/18-19/logo005.iff",
+                "logo006.iff": "mod/espn/18-19/logo006.iff",
+                "logo008.iff": "mod/espn/18-19/logo008.iff",
+                "logo009.iff": "mod/espn/18-19/logo009.iff",
+                "logo010.iff": "mod/espn/18-19/logo010.iff",
+                "logo011.iff": "mod/espn/18-19/logo011.iff",
+                "logo012.iff": "mod/espn/18-19/logo012.iff",
+                "logo013.iff": "mod/espn/18-19/logo013.iff",
+                "logo014.iff": "mod/espn/18-19/logo014.iff",
+                "logo015.iff": "mod/espn/18-19/logo015.iff",
+                "logo016.iff": "mod/espn/18-19/logo016.iff",
+                "logo017.iff": "mod/espn/18-19/logo017.iff",
+                "logo018.iff": "mod/espn/18-19/logo018.iff",
+                "logo019.iff": "mod/espn/18-19/logo019.iff",
+                "logo020.iff": "mod/espn/18-19/logo020.iff",
+                "logo021.iff": "mod/espn/18-19/logo021.iff",
+                "logo022.iff": "mod/espn/18-19/logo022.iff",
+                "logo023.iff": "mod/espn/18-19/logo023.iff",
+                "logo024.iff": "mod/espn/18-19/logo024.iff",
+                "logo025.iff": "mod/espn/18-19/logo025.iff",
+                "logo026.iff": "mod/espn/18-19/logo026.iff",
+                "logo027.iff": "mod/espn/18-19/logo027.iff",
+                "logo028.iff": "mod/espn/18-19/logo028.iff",
+                "logo029.iff": "mod/espn/18-19/logo029.iff",
+                "logo031.iff": "mod/espn/18-19/logo031.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/espn/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/espn/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/espn/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/espn/titlecard2.iff"
+            },
+            "ESPN_NCAA": {
+                "newbreakboard.iff": "mod/espn/11-12/newbreakboard.iff",
+                "watermark.iff": "mod/espn/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/espn/wipe.iff",
+                "newscorebug.iff": "mod/espn/ncaa/newscorebug.iff",
+                "logo501.iff": "mod/espn/logo501.iff",
+                "lower3rd.iff": "mod/espn/lower3rd.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/espn/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/espn/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/espn/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/espn/titlecard2.iff"
+            },
+            "FOX": {
+                "newbreakboard.iff": "mod/fox/newbreakboard.iff",
+                "newscorebug.iff": "mod/fox/newscorebug.iff",
+                "logo501.iff": "mod/fox/{teamid}/logo501.iff",
+                "lower3rd.iff": "mod/fox/{teamid}/lower3rd.iff",
+                "watermark.iff": "mod/fox/{teamid}/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/fox/wipe.iff",
+                "studioshowbumperpostgame.iff": "mod/fox/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/fox/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/fox/titlecard2.iff"
+            },
+            "FOX_13-14": {
+                "newbreakboard.iff": "mod/fox/newbreakboard.iff",
+                "newscorebug.iff": "mod/fox/year/13-14/newscorebug.iff",
+                "logo501.iff": "mod/fox/{teamid}/logo501.iff",
+                "lower3rd.iff": "mod/fox/{teamid}/lower3rd.iff",
+                "watermark.iff": "mod/fox/{teamid}/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/fox/wipe.iff",
+                "studioshowbumperpostgame.iff": "mod/fox/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/fox/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/fox/titlecard2.iff"
             },
             "MSG": {
-                "newbreakboard.iff": "newbreakboard_msg.iff",
-                "newscorebug.iff": "scorebug_msg.iff",
-                "watermark.iff": "watermark_msg.iff",
-                "gooeyoverlaysstatic.iff": "wipe_msg.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_msg.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_msg.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_msg.iff",
-                "titlecard2.iff": "titlecard2_msg.iff"
+                "newbreakboard.iff": "mod/msg/newbreakboard.iff",
+                "newscorebug.iff": "mod/msg/newscorebug.iff",
+                "logo501.iff": "mod/msg/logo501.iff",
+                "lower3rd.iff": "mod/msg/lower3rd.iff",
+                "watermark.iff": "mod/msg/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/msg/wipe.iff",
+                "pregame/studio_arenadesk_int.iff": "mod/msg/studio_arenadesk_int.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/msg/pregame/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/msg/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/msg/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/msg/titlecard2.iff"
+            },
+            "NBATV": {
+                "newscorebug.iff": "mod/nbatv/newscorebug.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbatv/studio_broadcastset_int.iff"
+            },
+            "NBC": {
+                "newscorebug.iff": "mod/nbc/19-20/newscorebug.iff",
+                "logo501.iff": "mod/nbc/19-20/{teamid}/logo501.iff",
+                "lower3rd.iff": "mod/nbc/19-20/{teamid}/lower3rd.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/19-20/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff",
+                "newbreakboard.iff": "mod/nbc/19-20/{teamid}/newbreakboard.iff",
+                "watermark.iff": "mod/nbc/19-20/{teamid}/watermark.iff",
+                "logo000.iff": "mod/nbc/19-20/logos/logo000.iff",
+                "logo001.iff": "mod/nbc/19-20/logos/logo001.iff",
+                "logo002.iff": "mod/nbc/19-20/logos/logo002.iff",
+                "logo003.iff": "mod/nbc/19-20/logos/logo003.iff",
+                "logo004.iff": "mod/nbc/19-20/logos/logo004.iff",
+                "logo005.iff": "mod/nbc/19-20/logos/logo005.iff",
+                "logo006.iff": "mod/nbc/19-20/logos/logo006.iff",
+                "logo008.iff": "mod/nbc/19-20/logos/logo008.iff",
+                "logo009.iff": "mod/nbc/19-20/logos/logo009.iff",
+                "logo010.iff": "mod/nbc/19-20/logos/logo010.iff",
+                "logo011.iff": "mod/nbc/19-20/logos/logo011.iff",
+                "logo012.iff": "mod/nbc/19-20/logos/logo012.iff",
+                "logo013.iff": "mod/nbc/19-20/logos/logo013.iff",
+                "logo014.iff": "mod/nbc/19-20/logos/logo014.iff",
+                "logo015.iff": "mod/nbc/19-20/logos/logo015.iff",
+                "logo016.iff": "mod/nbc/19-20/logos/logo016.iff",
+                "logo017.iff": "mod/nbc/19-20/logos/logo017.iff",
+                "logo018.iff": "mod/nbc/19-20/logos/logo018.iff",
+                "logo019.iff": "mod/nbc/19-20/logos/logo019.iff",
+                "logo020.iff": "mod/nbc/19-20/logos/logo020.iff",
+                "logo021.iff": "mod/nbc/19-20/logos/logo021.iff",
+                "logo022.iff": "mod/nbc/19-20/logos/logo022.iff",
+                "logo023.iff": "mod/nbc/19-20/logos/logo023.iff",
+                "logo024.iff": "mod/nbc/19-20/logos/logo024.iff",
+                "logo025.iff": "mod/nbc/19-20/logos/logo025.iff",
+                "logo026.iff": "mod/nbc/19-20/logos/logo026.iff",
+                "logo027.iff": "mod/nbc/19-20/logos/logo027.iff",
+                "logo028.iff": "mod/nbc/19-20/logos/logo028.iff",
+                "logo029.iff": "mod/nbc/19-20/logos/logo029.iff",
+                "logo031.iff": "mod/nbc/19-20/logos/logo031.iff"
+            },
+            "NBC_02": {
+                "newbreakboard.iff": "mod/nbc/19-20/newbreakboard.iff",
+                "newscorebug.iff": "mod/nbc/99-02/newscorebug.iff",
+                "logo501.iff": "mod/nbc/logo501.iff",
+                "lower3rd.iff": "mod/nbc/lower3rd.iff",
+                "watermark.iff": "mod/nbc/99-02/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/99-02/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/99-02/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff",
+                "clothing/a_logo_nba.iff": "clothing_90s/a_logo_nba.iff",
+                "clothing/clothing_resource_nba_2k19_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_n_tex.iff": "clothing_90s/clothing_resource_nba_2k19_n_tex.iff",
+                "clothing/clothing_resource_nba_embroidery_tex.iff": "clothing_90s/clothing_resource_nba_embroidery_tex.iff",
+                "clothing/clothing_resource_nba_headband_tex.iff": "clothing_90s/clothing_resource_nba_headband_tex.iff",
+                "clothing/clothing_resource_nba_patch_tex.iff": "clothing_90s/clothing_resource_nba_patch_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_c_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_n_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_n_tex.iff",
+                "clothing/clothing_resource_nba_sock_02_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_02_c_tex.iff",
+                "clothing/clothing_resource_nike_c_tex.iff": "clothing_90s/clothing_resource_nike_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_black_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_black_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_n_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_n_tex.iff",
+                "clothing/clothing_resource_nike_single_n_tex.iff": "clothing_90s/clothing_resource_nike_single_n_tex.iff",
+                "clothing/clothing_resource_nike_sock_c_tex.iff": "clothing_90s/clothing_resource_nike_sock_c_tex.iff",
+                "clothing/clothing_resource_nike_sock_n_tex.iff": "clothing_90s/clothing_resource_nike_sock_n_tex.iff",
+                "clothing/clothing_resource_nike_swoosh_embroidery_tex.iff": "clothing_90s/clothing_resource_nike_swoosh_embroidery_tex.iff",
+                "clothing/clothing_resource_polo_tuck_color_tex.iff": "clothing_90s/clothing_resource_polo_tuck_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_color_tex.iff": "clothing_90s/clothing_resource_shirt_referee_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
+            },
+            "NBC_BAY_AREA": {
+                "newbreakboard.iff": "mod/nbc/19-20/bay_area/newbreakboard.iff",
+                "newscorebug.iff": "mod/nbc/19-20/newscorebug.iff",
+                "watermark.iff": "mod/nbc/19-20/bay_area/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/19-20/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff"
+            },
+            "NBC_BOSTON": {
+                "newbreakboard.iff": "mod/nbc/19-20/boston/newbreakboard.iff",
+                "newscorebug.iff": "mod/nbc/19-20/newscorebug.iff",
+                "watermark.iff": "mod/nbc/19-20/boston/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/19-20/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff"
+            },
+            "NBC_CALIFORNIA": {
+                "newbreakboard.iff": "mod/nbc/19-20/california/newbreakboard.iff",
+                "newscorebug.iff": "mod/nbc/19-20/newscorebug.iff",
+                "watermark.iff": "mod/nbc/19-20/california/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/19-20/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff"
+            },
+            "NBC_CHICAGO": {
+                "newbreakboard.iff": "mod/nbc/19-20/chicago/newbreakboard.iff",
+                "newscorebug.iff": "mod/nbc/19-20/newscorebug.iff",
+                "watermark.iff": "mod/nbc/19-20/chicago/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/19-20/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff"
+            },
+            "NBC_CLASSIC": {
+                "newbreakboard.iff": "mod/nbc/19-20/newbreakboard.iff",
+                "newscorebug.iff": "mod/nbc/classic/newscorebug.iff",
+                "logo501.iff": "mod/nbc/logo501.iff",
+                "lower3rd.iff": "mod/nbc/lower3rd.iff",
+                "watermark.iff": "mod/nbc/classic/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/classic/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/classic/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff",
+                "clothing/a_logo_nba.iff": "clothing_90s/a_logo_nba.iff",
+                "clothing/clothing_resource_nba_2k19_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nba_2k19_n_tex.iff": "clothing_90s/clothing_resource_nba_2k19_n_tex.iff",
+                "clothing/clothing_resource_nba_embroidery_tex.iff": "clothing_90s/clothing_resource_nba_embroidery_tex.iff",
+                "clothing/clothing_resource_nba_headband_tex.iff": "clothing_90s/clothing_resource_nba_headband_tex.iff",
+                "clothing/clothing_resource_nba_patch_tex.iff": "clothing_90s/clothing_resource_nba_patch_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_c_tex.iff",
+                "clothing/clothing_resource_nba_sock_01_n_tex.iff": "clothing_90s/clothing_resource_nba_sock_01_n_tex.iff",
+                "clothing/clothing_resource_nba_sock_02_c_tex.iff": "clothing_90s/clothing_resource_nba_sock_02_c_tex.iff",
+                "clothing/clothing_resource_nike_c_tex.iff": "clothing_90s/clothing_resource_nike_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_black_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_black_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_c_tex.iff",
+                "clothing/clothing_resource_nike_nba_colorizable_n_tex.iff": "clothing_90s/clothing_resource_nike_nba_colorizable_n_tex.iff",
+                "clothing/clothing_resource_nike_single_n_tex.iff": "clothing_90s/clothing_resource_nike_single_n_tex.iff",
+                "clothing/clothing_resource_nike_sock_c_tex.iff": "clothing_90s/clothing_resource_nike_sock_c_tex.iff",
+                "clothing/clothing_resource_nike_sock_n_tex.iff": "clothing_90s/clothing_resource_nike_sock_n_tex.iff",
+                "clothing/clothing_resource_nike_swoosh_embroidery_tex.iff": "clothing_90s/clothing_resource_nike_swoosh_embroidery_tex.iff",
+                "clothing/clothing_resource_polo_tuck_color_tex.iff": "clothing_90s/clothing_resource_polo_tuck_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_color_tex.iff": "clothing_90s/clothing_resource_shirt_referee_color_tex.iff",
+                "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
+            },
+            "NBC_PHILADELPHIA": {
+                "newbreakboard.iff": "mod/nbc/19-20/philadelphia/newbreakboard.iff",
+                "newscorebug.iff": "mod/nbc/19-20/newscorebug.iff",
+                "watermark.iff": "mod/nbc/19-20/philadelphia/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/19-20/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff"
+            },
+            "NBC_PNW": {
+                "newbreakboard.iff": "mod/nbc/19-20/pnw/newbreakboard.iff",
+                "newscorebug.iff": "mod/nbc/19-20/pnw/newscorebug.iff",
+                "logo501.iff": "mod/nbc/19-20/pnw/logo501.iff",
+                "lower3rd.iff": "mod/nbc/19-20/pnw/lower3rd.iff",
+                "watermark.iff": "mod/nbc/19-20/pnw/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/19-20/wipe.iff",
+                "pregame/studio_arenadesk_int.iff": "mod/nbc/19-20/pnw/studio_arenadesk_int.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/19-20/pnw/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff",
+                "logo000.iff": "mod/nbc/19-20/logos/logo000.iff",
+                "logo001.iff": "mod/nbc/19-20/logos/logo001.iff",
+                "logo002.iff": "mod/nbc/19-20/logos/logo002.iff",
+                "logo003.iff": "mod/nbc/19-20/logos/logo003.iff",
+                "logo004.iff": "mod/nbc/19-20/logos/logo004.iff",
+                "logo005.iff": "mod/nbc/19-20/logos/logo005.iff",
+                "logo006.iff": "mod/nbc/19-20/logos/logo006.iff",
+                "logo008.iff": "mod/nbc/19-20/logos/logo008.iff",
+                "logo009.iff": "mod/nbc/19-20/logos/logo009.iff",
+                "logo010.iff": "mod/nbc/19-20/logos/logo010.iff",
+                "logo011.iff": "mod/nbc/19-20/logos/logo011.iff",
+                "logo012.iff": "mod/nbc/19-20/logos/logo012.iff",
+                "logo013.iff": "mod/nbc/19-20/logos/logo013.iff",
+                "logo014.iff": "mod/nbc/19-20/logos/logo014.iff",
+                "logo015.iff": "mod/nbc/19-20/logos/logo015.iff",
+                "logo016.iff": "mod/nbc/19-20/logos/logo016.iff",
+                "logo017.iff": "mod/nbc/19-20/logos/logo017.iff",
+                "logo018.iff": "mod/nbc/19-20/logos/logo018.iff",
+                "logo019.iff": "mod/nbc/19-20/logos/logo019.iff",
+                "logo020.iff": "mod/nbc/19-20/logos/logo020.iff",
+                "logo021.iff": "mod/nbc/19-20/logos/logo021.iff",
+                "logo022.iff": "mod/nbc/19-20/logos/logo022.iff",
+                "logo023.iff": "mod/nbc/19-20/logos/logo023.iff",
+                "logo024.iff": "mod/nbc/19-20/logos/logo024.iff",
+                "logo025.iff": "mod/nbc/19-20/logos/logo025.iff",
+                "logo026.iff": "mod/nbc/19-20/logos/logo026.iff",
+                "logo027.iff": "mod/nbc/19-20/logos/logo027.iff",
+                "logo028.iff": "mod/nbc/19-20/logos/logo028.iff",
+                "logo029.iff": "mod/nbc/19-20/logos/logo029.iff",
+                "logo031.iff": "mod/nbc/19-20/logos/logo031.iff"
+            },
+            "NBC_SNF": {
+                "newbreakboard.iff": "mod/nbc/19-20/newbreakboard.iff",
+                "newscorebug.iff": "mod/nbc/19-20/snf/newscorebug.iff",
+                "logo501.iff": "mod/nbc/logo501.iff",
+                "lower3rd.iff": "mod/nbc/lower3rd.iff",
+                "watermark.iff": "mod/nbc/19-20/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/19-20/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff"
+            },
+            "NBC_WASHINGTON": {
+                "newbreakboard.iff": "mod/nbc/19-20/washington/newbreakboard.iff",
+                "newscorebug.iff": "mod/nbc/19-20/newscorebug.iff",
+                "watermark.iff": "mod/nbc/19-20/washington/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/nbc/19-20/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/nbc/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/nbc/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/nbc/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/nbc/titlecard2.iff"
             },
             "SPECTRUM": {
-                "newbreakboard.iff": "newbreakboard_spectrum.iff",
-                "newscorebug.iff": "scorebug_spectrum.iff",
-                "watermark.iff": "watermark_spectrum.iff",
-                "gooeyoverlaysstatic.iff": "wipe_spectrum.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_spectrum.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_spectrum.iff"
-            },
-            "SPECTRUM_LAKERS": {
-                "newbreakboard.iff": "newbreakboard_spectrum_lakers.iff",
-                "newscorebug.iff": "scorebug_spectrum.iff",
-                "watermark.iff": "watermark_spectrum.iff",
-                "gooeyoverlaysstatic.iff": "wipe_spectrum.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_spectrum_lakers.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_spectrum.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_spectrum.iff",
-                "titlecard2.iff": "titlecard2_spectrum_lakers.iff"
+                "newbreakboard.iff": "mod/spectrum/{teamid}/newbreakboard.iff",
+                "newscorebug.iff": "mod/spectrum/newscorebug.iff",
+                "watermark.iff": "mod/spectrum/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/spectrum/wipe.iff",
+                "logo501.iff": "mod/spectrum/{teamid}/logo501.iff",
+                "lower3rd.iff": "mod/spectrum/{teamid}/lower3rd.iff",
+                "pregame/studio_arenadesk_int.iff": "mod/spectrum/studio_arenadesk_int.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/spectrum/{teamid}/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/spectrum/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/spectrum/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/spectrum/{teamid}/titlecard2.iff"
             },
             "TNT": {
-                "gooeyoverlaysstatic.iff": "wipe_tnt.iff",
-                "newbreakboard.iff": "newbreakboard_tnt.iff",
-                "newscorebug.iff": "scorebug_tnt.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt.iff",
-                "studioshowbumperhalftime.iff": "studioshowbumperhalftime_tnt.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_tnt.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_tnt.iff",
-                "titlecard2.iff": "titlecard2_tnt.iff",
-                "watermark.iff": "watermark_tnt.iff"
+                "gooeyoverlaysstatic.iff": "mod/tnt/wipe.iff",
+                "newbreakboard.iff": "mod/tnt/newbreakboard.iff",
+                "newscorebug.iff": "mod/tnt/newscorebug.iff",
+                "logo501.iff": "mod/tnt/logo501.iff",
+                "lower3rd.iff": "mod/tnt/lower3rd.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/tnt/studio_broadcastset_int.iff",
+                "studioshowbumperhalftime.iff": "mod/tnt/studioshowbumperhalftime.iff",
+                "studioshowbumperpostgame.iff": "mod/tnt/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/tnt/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/tnt/titlecard2.iff",
+                "watermark.iff": "mod/tnt/watermark.iff"
+            },
+            "TNT_10": {
+                "newbreakboard.iff": "mod/tnt/newbreakboard.iff",
+                "newscorebug.iff": "mod/tnt/10/newscorebug.iff",
+                "logo501.iff": "mod/tnt/logo501.iff",
+                "lower3rd.iff": "mod/tnt/lower3rd.iff",
+                "studioshowbumperhalftime.iff": "mod/tnt/studioshowbumperhalftime.iff",
+                "studioshowbumperpostgame.iff": "mod/tnt/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/tnt/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/tnt/titlecard2.iff",
+                "watermark.iff": "mod/tnt/10/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/tnt/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/tnt/studio_broadcastset_int.iff"
             },
             "TNT_14": {
-                "newbreakboard.iff": "newbreakboard_tnt.iff",
-                "newscorebug.iff": "scorebug_tnt_14.iff",
-                "studioshowbumperhalftime.iff": "studioshowbumperhalftime_tnt.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_tnt.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_tnt.iff",
-                "titlecard2.iff": "titlecard2_tnt.iff",
-                "watermark.iff": "watermark_tnt.iff",
-                "gooeyoverlaysstatic.iff": "wipe_tnt.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt.iff"
+                "newbreakboard.iff": "mod/tnt/newbreakboard.iff",
+                "newscorebug.iff": "mod/tnt/14/newscorebug.iff",
+                "logo501.iff": "mod/tnt/logo501.iff",
+                "lower3rd.iff": "mod/tnt/lower3rd.iff",
+                "studioshowbumperhalftime.iff": "mod/tnt/studioshowbumperhalftime.iff",
+                "studioshowbumperpostgame.iff": "mod/tnt/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/tnt/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/tnt/titlecard2.iff",
+                "watermark.iff": "mod/tnt/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/tnt/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/tnt/studio_broadcastset_int.iff"
             },
             "TNT_92": {
-                "newbreakboard.iff": "newbreakboard_tnt.iff",
-                "newscorebug.iff": "scorebug_tnt_92.iff",
-                "studioshowbumperhalftime.iff": "studioshowbumperhalftime_tnt.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_tnt.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_tnt.iff",
-                "titlecard2.iff": "titlecard2_tnt.iff",
-                "watermark.iff": "watermark_tnt_92.iff",
-                "gooeyoverlaysstatic.iff": "wipe_tnt_92.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt_92.iff",
+                "newbreakboard.iff": "mod/tnt/newbreakboard.iff",
+                "newscorebug.iff": "mod/tnt/92/newscorebug.iff",
+                "logo501.iff": "mod/tnt/logo501.iff",
+                "lower3rd.iff": "mod/tnt/lower3rd.iff",
+                "studioshowbumperhalftime.iff": "mod/tnt/studioshowbumperhalftime.iff",
+                "studioshowbumperpostgame.iff": "mod/tnt/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/tnt/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/tnt/titlecard2.iff",
+                "watermark.iff": "mod/tnt/92/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/tnt/92/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/tnt/92/studio_broadcastset_int.iff",
                 "clothing/a_logo_nba.iff": "clothing_90s/a_logo_nba.iff",
                 "clothing/clothing_resource_nba_2k19_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_c_tex.iff",
                 "clothing/clothing_resource_nba_2k19_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_colorizable_c_tex.iff",
@@ -463,15 +662,17 @@
                 "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
             },
             "TNT_98": {
-                "newbreakboard.iff": "newbreakboard_tnt.iff",
-                "newscorebug.iff": "scorebug_tnt_98.iff",
-                "studioshowbumperhalftime.iff": "studioshowbumperhalftime_tnt.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_tnt.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_tnt.iff",
-                "titlecard2.iff": "titlecard2_tnt.iff",
-                "watermark.iff": "watermark_tnt_98.iff",
-                "gooeyoverlaysstatic.iff": "wipe_tnt_98.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_tnt_92.iff",
+                "newbreakboard.iff": "mod/tnt/newbreakboard.iff",
+                "newscorebug.iff": "mod/tnt/98/newscorebug.iff",
+                "logo501.iff": "mod/tnt/logo501.iff",
+                "lower3rd.iff": "mod/tnt/lower3rd.iff",
+                "studioshowbumperhalftime.iff": "mod/tnt/studioshowbumperhalftime.iff",
+                "studioshowbumperpostgame.iff": "mod/tnt/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/tnt/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/tnt/titlecard2.iff",
+                "watermark.iff": "mod/tnt/98/watermark.iff",
+                "gooeyoverlaysstatic.iff": "mod/tnt/98/wipe.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/tnt/92/studio_broadcastset_int.iff",
                 "clothing/a_logo_nba.iff": "clothing_90s/a_logo_nba.iff",
                 "clothing/clothing_resource_nba_2k19_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_c_tex.iff",
                 "clothing/clothing_resource_nba_2k19_colorizable_c_tex.iff": "clothing_90s/clothing_resource_nba_2k19_colorizable_c_tex.iff",
@@ -495,30 +696,34 @@
                 "clothing/clothing_resource_shirt_referee_tex.iff": "clothing_90s/clothing_resource_shirt_referee_tex.iff"
             },
             "TSN": {
-                "gooeyoverlaysstatic.iff": "wipe_tsn.iff",
-                "newscorebug.iff": "scorebug_tsn.iff",
-                "studioshowbumperhalftime.iff": "studioshowbumperhalftime_tsn.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_tsn.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_tsn.iff",
-                "titlecard2.iff": "titlecard2_tsn.iff",
-                "watermark.iff": "watermark_tsn.iff"
+                "gooeyoverlaysstatic.iff": "mod/tsn/wipe.iff",
+                "newscorebug.iff": "mod/tsn/newscorebug.iff",
+                "logo501.iff": "mod/tsn/logo501.iff",
+                "lower3rd.iff": "mod/tsn/lower3rd.iff",
+                "studioshowbumperhalftime.iff": "mod/tsn/studioshowbumperhalftime.iff",
+                "studioshowbumperpostgame.iff": "mod/tsn/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/tsn/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/tsn/titlecard2.iff",
+                "watermark.iff": "mod/tsn/watermark.iff"
             },
             "YES": {
-                "gooeyoverlaysstatic.iff": "wipe_yes.iff",
-                "newbreakboard.iff": "newbreakboard_yes.iff",
-                "newscorebug.iff": "scorebug_yes.iff",
-                "pregame/studio_arenadesk_int.iff": "pregame/studio_arenadesk_int_yes.iff",
-                "pregame/studio_broadcastset_int.iff": "pregame/studio_broadcastset_int_yes.iff",
-                "studioshowbumperpostgame.iff": "studioshowbumperpostgame_yes.iff",
-                "studioshowbumperpregame.iff": "studioshowbumperpregame_yes.iff",
-                "titlecard2.iff": "titlecard2_yes.iff",
-                "watermark.iff": "watermark_yes.iff"
+                "gooeyoverlaysstatic.iff": "mod/yes/wipe.iff",
+                "newbreakboard.iff": "mod/yes/newbreakboard.iff",
+                "newscorebug.iff": "mod/yes/newscorebug.iff",
+                "logo501.iff": "mod/yes/logo501.iff",
+                "lower3rd.iff": "mod/yes/lower3rd.iff",
+                "pregame/studio_arenadesk_int.iff": "mod/yes/studio_arenadesk_int.iff",
+                "pregame/studio_broadcastset_int.iff": "mod/yes/studio_broadcastset_int.iff",
+                "studioshowbumperpostgame.iff": "mod/yes/studioshowbumperpostgame.iff",
+                "studioshowbumperpregame.iff": "mod/yes/studioshowbumperpregame.iff",
+                "titlecard2.iff": "mod/yes/titlecard2.iff",
+                "watermark.iff": "mod/yes/watermark.iff"
             }
         },
         "teams": {
             "0": {
                 "name": "76ers",
-                "file": "NBC_PHILADELPHIA",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -538,7 +743,7 @@
             },
             "2": {
                 "name": "Wizards",
-                "file": "NBC_SNF",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -548,7 +753,7 @@
             },
             "3": {
                 "name": "Bulls",
-                "file": "NBC_CHICAGO",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -568,7 +773,7 @@
             },
             "5": {
                 "name": "Celtics",
-                "file": "NBC_BOSTON",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -638,7 +843,7 @@
             },
             "12": {
                 "name": "Jazz",
-                "file": "ATT_JAZZ",
+                "file": "ATT",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -648,7 +853,7 @@
             },
             "13": {
                 "name": "Kings",
-                "file": "NBC_CALIFORNIA",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -668,7 +873,7 @@
             },
             "15": {
                 "name": "Lakers",
-                "file": "SPECTRUM_LAKERS",
+                "file": "SPECTRUM",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -748,7 +953,7 @@
             },
             "23": {
                 "name": "Rockets",
-                "file": "ATT_ROCKETS",
+                "file": "ATT",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -836,9 +1041,19 @@
                     "000000"
                 ]
             },
-            "69": {
-                "name": "USA",
-                "file": "NBC",
+            "61": {
+                "name": "2K Sports - 2K Sports - 2KS",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "62": {
+                "name": "2K Sports - 2K Sports - 2KS",
+                "file": "TNT",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -847,8 +1062,8 @@
                 ]
             },
             "200": {
-                "name": "76ers",
-                "file": "NBC_PHILADELPHIA",
+                "name": "76ers GC - E League -SGC",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -857,7 +1072,7 @@
                 ]
             },
             "201": {
-                "name": "Bucks",
+                "name": "Bucks Gaming - E League - BCG",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -867,8 +1082,8 @@
                 ]
             },
             "202": {
-                "name": "Wizards",
-                "file": "NBC_SNF",
+                "name": "Wizards District Gaming - E League - WDG",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -877,8 +1092,8 @@
                 ]
             },
             "203": {
-                "name": "Bulls",
-                "file": "NBC_CHICAGO",
+                "name": "Bulls - E League - Bulls",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -887,7 +1102,7 @@
                 ]
             },
             "204": {
-                "name": "Cavaliers",
+                "name": "Cavs Legion GC - E League - CLG",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -897,8 +1112,8 @@
                 ]
             },
             "205": {
-                "name": "Celtics",
-                "file": "NBC_BOSTON",
+                "name": "Celtics Crossover Gaming - E League - CCG",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -907,7 +1122,7 @@
                 ]
             },
             "206": {
-                "name": "Clippers",
+                "name": "Clippers - E League - CLIP",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -917,7 +1132,7 @@
                 ]
             },
             "208": {
-                "name": "Grizzlies",
+                "name": "Grizz Gaming - E League - GZG",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -927,7 +1142,7 @@
                 ]
             },
             "209": {
-                "name": "Hawks",
+                "name": "Hawks - E League - eleHAW",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -937,7 +1152,7 @@
                 ]
             },
             "210": {
-                "name": "Heat",
+                "name": "Heat Check Gaming - E League - HCG",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -947,7 +1162,7 @@
                 ]
             },
             "211": {
-                "name": "Pelicans",
+                "name": "Pelicans - E League - elePEL",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -957,7 +1172,7 @@
                 ]
             },
             "212": {
-                "name": "Jazz",
+                "name": "Jazz Gaming - E League - JZG",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -967,8 +1182,8 @@
                 ]
             },
             "213": {
-                "name": "Kings",
-                "file": "NBC_CALIFORNIA",
+                "name": "Kings Guard Gaming - E League - KGG",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -977,7 +1192,7 @@
                 ]
             },
             "214": {
-                "name": "Knicks",
+                "name": "Knicks Gaming - E League -KNX",
                 "file": "MSG",
                 "useColors": 0,
                 "colors": [
@@ -987,7 +1202,7 @@
                 ]
             },
             "215": {
-                "name": "Lakers",
+                "name": "Lakers - E League - Lakers",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -997,7 +1212,7 @@
                 ]
             },
             "216": {
-                "name": "Magic",
+                "name": "Magic Gaming - E League - MGG",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1007,7 +1222,7 @@
                 ]
             },
             "217": {
-                "name": "Mavericks",
+                "name": "Mavs Gaming - E League - MVG",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1017,7 +1232,7 @@
                 ]
             },
             "218": {
-                "name": "Nets",
+                "name": "Nets - E League - eleNET",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1027,7 +1242,7 @@
                 ]
             },
             "219": {
-                "name": "Nuggets",
+                "name": "Nuggets - E League - eleNUG",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1037,7 +1252,7 @@
                 ]
             },
             "220": {
-                "name": "Pacers",
+                "name": "Pacers - E League - PCG",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1047,7 +1262,7 @@
                 ]
             },
             "221": {
-                "name": "Pistons",
+                "name": "Pistons GT - E League - PGT",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1057,7 +1272,7 @@
                 ]
             },
             "222": {
-                "name": "Raptors",
+                "name": "Raptors Uprising GC - E League - RUG",
                 "file": "TSN",
                 "useColors": 0,
                 "colors": [
@@ -1067,7 +1282,7 @@
                 ]
             },
             "223": {
-                "name": "Rockets",
+                "name": "Rockets - E League - eleROC",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1077,7 +1292,7 @@
                 ]
             },
             "224": {
-                "name": "Thunder",
+                "name": "Thunder - E League - eleTHU",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -1087,7 +1302,7 @@
                 ]
             },
             "225": {
-                "name": "Spurs",
+                "name": "Spurs - E League - eleSPU",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1097,7 +1312,7 @@
                 ]
             },
             "226": {
-                "name": "Suns",
+                "name": "Suns - E League - eleSUN",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1107,7 +1322,7 @@
                 ]
             },
             "227": {
-                "name": "Timberwolves",
+                "name": "Timberwolves - E League - eleTIM",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1117,7 +1332,7 @@
                 ]
             },
             "228": {
-                "name": "TrailBlazers",
+                "name": "Blazer5 Gaming - E League - BZG",
                 "file": "NBC_PNW",
                 "useColors": 0,
                 "colors": [
@@ -1127,7 +1342,7 @@
                 ]
             },
             "229": {
-                "name": "Warriors",
+                "name": "Warriors Gaming Squad - E League - WGS",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -1137,7 +1352,7 @@
                 ]
             },
             "231": {
-                "name": "Hornets",
+                "name": "Hornets - E League - eleCHA",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1147,7 +1362,7 @@
                 ]
             },
             "501": {
-                "name": "2K Sports",
+                "name": "2K Sports - 2K Sports - 2KS",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1157,7 +1372,7 @@
                 ]
             },
             "504": {
-                "name": "USA",
+                "name": "USA - Rookies Usa - USA",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1167,7 +1382,7 @@
                 ]
             },
             "505": {
-                "name": "World",
+                "name": "World - WLD - Rookies World",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1177,7 +1392,7 @@
                 ]
             },
             "551": {
-                "name": "Bulls",
+                "name": "Bulls - '85-'86 - CHI",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1187,27 +1402,7 @@
                 ]
             },
             "552": {
-                "name": "Celtics",
-                "file": "NBC_CLASSIC",
-                "useColors": 0,
-                "colors": [
-                    "000000",
-                    "000000",
-                    "000000"
-                ]
-            },
-            "553": {
-                "name": "Bulls",
-                "file": "TNT_92",
-                "useColors": 0,
-                "colors": [
-                    "000000",
-                    "000000",
-                    "000000"
-                ]
-            },
-            "554": {
-                "name": "Hawks",
+                "name": "Celtics - '85-'86 - BOS",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1217,18 +1412,8 @@
                 ]
             },
             "555": {
-                "name": "Cavaliers",
-                "file": "FOX",
-                "useColors": 0,
-                "colors": [
-                    "000000",
-                    "000000",
-                    "000000"
-                ]
-            },
-            "556": {
-                "name": "Pistons",
-                "file": "NBC_CLASSIC",
+                "name": "Cavaliers - '89-'90 - CLE",
+                "file": "NBC_02",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1237,28 +1422,8 @@
                 ]
             },
             "557": {
-                "name": "Lakers",
+                "name": "Lakers - '90-'91 - LAL",
                 "file": "NBC_CLASSIC",
-                "useColors": 0,
-                "colors": [
-                    "000000",
-                    "000000",
-                    "000000"
-                ]
-            },
-            "558": {
-                "name": "TrailBlazers",
-                "file": "NBC_CLASSIC",
-                "useColors": 0,
-                "colors": [
-                    "000000",
-                    "000000",
-                    "000000"
-                ]
-            },
-            "559": {
-                "name": "Bulls",
-                "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1267,7 +1432,7 @@
                 ]
             },
             "560": {
-                "name": "Knicks",
+                "name": "Knicks - '94-'95 - NY",
                 "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
@@ -1277,7 +1442,7 @@
                 ]
             },
             "561": {
-                "name": "Bulls",
+                "name": "Bulls - '95-'96 - CHI",
                 "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
@@ -1287,7 +1452,7 @@
                 ]
             },
             "562": {
-                "name": "SuperSonics",
+                "name": "SuperSonics - '95-'96 - SEA",
                 "file": "TNT_92",
                 "useColors": 0,
                 "colors": [
@@ -1297,7 +1462,7 @@
                 ]
             },
             "565": {
-                "name": "Bulls",
+                "name": "Bulls - '97-'98 - CHI",
                 "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
@@ -1307,7 +1472,7 @@
                 ]
             },
             "566": {
-                "name": "Jazz",
+                "name": "Jazz - '97-'98 - UTA",
                 "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
@@ -1317,7 +1482,7 @@
                 ]
             },
             "567": {
-                "name": "Bulls",
+                "name": "Bulls - '90-'91 - CHI",
                 "file": "TNT_92",
                 "useColors": 0,
                 "colors": [
@@ -1327,7 +1492,7 @@
                 ]
             },
             "569": {
-                "name": "Celtics",
+                "name": "Celtics - '64-'65 - BOS",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1337,7 +1502,7 @@
                 ]
             },
             "570": {
-                "name": "Lakers",
+                "name": "Lakers - '64-'65 - LAL",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1347,7 +1512,7 @@
                 ]
             },
             "571": {
-                "name": "Bucks",
+                "name": "Bucks - '70-'71 - MIL",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1357,7 +1522,7 @@
                 ]
             },
             "572": {
-                "name": "Lakers",
+                "name": "Lakers - '70-'71 - LAL",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1367,17 +1532,7 @@
                 ]
             },
             "574": {
-                "name": "Knicks",
-                "file": "NBC_CLASSIC",
-                "useColors": 0,
-                "colors": [
-                    "000000",
-                    "000000",
-                    "000000"
-                ]
-            },
-            "575": {
-                "name": "76ers",
+                "name": "Knicks - '71-'72 - NY",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1387,7 +1542,7 @@
                 ]
             },
             "576": {
-                "name": "Bucks",
+                "name": "Bucks - '84-'85 - MIL",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1397,7 +1552,7 @@
                 ]
             },
             "577": {
-                "name": "Hawks",
+                "name": "Hawks - '85-'86 - ATL",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1407,7 +1562,7 @@
                 ]
             },
             "578": {
-                "name": "Lakers",
+                "name": "Lakers - '86-'87 - LAL",
                 "file": "TNT_92",
                 "useColors": 0,
                 "colors": [
@@ -1417,7 +1572,7 @@
                 ]
             },
             "579": {
-                "name": "Pistons",
+                "name": "Pistons - '88-'89 - DET",
                 "file": "TNT_92",
                 "useColors": 0,
                 "colors": [
@@ -1427,8 +1582,8 @@
                 ]
             },
             "580": {
-                "name": "Bulls",
-                "file": "TNT",
+                "name": "Bulls - '88-'89 - CHI",
+                "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1437,7 +1592,7 @@
                 ]
             },
             "582": {
-                "name": "TrailBlazers",
+                "name": "TrailBlazers - '90-'91 - GS",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1447,7 +1602,7 @@
                 ]
             },
             "583": {
-                "name": "Warriors",
+                "name": "Warriors - '90-'91 - GS",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1457,7 +1612,7 @@
                 ]
             },
             "584": {
-                "name": "Bulls",
+                "name": "Bulls - '92-'93 - CHI",
                 "file": "TNT_92",
                 "useColors": 0,
                 "colors": [
@@ -1466,18 +1621,8 @@
                     "000000"
                 ]
             },
-            "585": {
-                "name": "Hawks",
-                "file": "FOX",
-                "useColors": 0,
-                "colors": [
-                    "000000",
-                    "000000",
-                    "000000"
-                ]
-            },
             "586": {
-                "name": "Hornets",
+                "name": "Hornets - '92-'93 - CHA",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1487,7 +1632,7 @@
                 ]
             },
             "588": {
-                "name": "Nuggets",
+                "name": "Nuggets - '93-'94 - DEN",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1497,7 +1642,7 @@
                 ]
             },
             "589": {
-                "name": "Rockets",
+                "name": "Rockets - '93-'94 - HOU",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1507,7 +1652,7 @@
                 ]
             },
             "590": {
-                "name": "Magic",
+                "name": "Magic - '94-'95 - ORL",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1517,7 +1662,7 @@
                 ]
             },
             "591": {
-                "name": "Lakers",
+                "name": "Lakers - '97-'98 - LAL",
                 "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
@@ -1527,7 +1672,7 @@
                 ]
             },
             "592": {
-                "name": "Spurs",
+                "name": "Spurs - '97-'98 - SA",
                 "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
@@ -1537,7 +1682,7 @@
                 ]
             },
             "594": {
-                "name": "76ers",
+                "name": "76ers - '76-'77 - PHI",
                 "file": "NBC_CLASSIC",
                 "useColors": 0,
                 "colors": [
@@ -1547,8 +1692,8 @@
                 ]
             },
             "595": {
-                "name": "76ers",
-                "file": "NBC_PHILADELPHIA",
+                "name": "76ers - '00-'01 - PHI",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1557,7 +1702,7 @@
                 ]
             },
             "600": {
-                "name": "Home",
+                "name": "Home - Street Home - HME",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1567,7 +1712,7 @@
                 ]
             },
             "601": {
-                "name": "Away",
+                "name": "Away - Street Away - AWY",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1577,7 +1722,7 @@
                 ]
             },
             "602": {
-                "name": "Ballerz",
+                "name": "Ballerz - Street Home - BLR",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -1587,7 +1732,7 @@
                 ]
             },
             "603": {
-                "name": "Ringers",
+                "name": "Ringers - Street Away - RGR",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -1596,9 +1741,9 @@
                     "000000"
                 ]
             },
-            "640": {
-                "name": "Hornets",
-                "file": "ESPN_05",
+            "604": {
+                "name": "Elites - Rookie Showcase - ELT",
+                "file": "TNT",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1606,19 +1751,9 @@
                     "000000"
                 ]
             },
-            "642": {
-                "name": "Mavericks",
-                "file": "ESPN_12",
-                "useColors": 0,
-                "colors": [
-                    "000000",
-                    "000000",
-                    "000000"
-                ]
-            },
-            "643": {
-                "name": "Hawks",
-                "file": "FOX",
+            "605": {
+                "name": "Stars - Rookie Showcase - STR",
+                "file": "TNT",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1627,7 +1762,7 @@
                 ]
             },
             "650": {
-                "name": "Raptors",
+                "name": "Raptors - '99-'00 - TOR",
                 "file": "TSN",
                 "useColors": 0,
                 "colors": [
@@ -1637,7 +1772,7 @@
                 ]
             },
             "651": {
-                "name": "TrailBlazers",
+                "name": "TrailBlazers - '99-'00 - POR",
                 "file": "NBC_PNW",
                 "useColors": 0,
                 "colors": [
@@ -1647,7 +1782,7 @@
                 ]
             },
             "652": {
-                "name": "Lakers",
+                "name": "Lakers - '00-'01 - LAL",
                 "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
@@ -1657,7 +1792,7 @@
                 ]
             },
             "653": {
-                "name": "Mavericks",
+                "name": "Mavericks - '02-'03 - DAL",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1667,7 +1802,7 @@
                 ]
             },
             "654": {
-                "name": "Pistons",
+                "name": "Pistons - '03-'04 - DET",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1677,7 +1812,7 @@
                 ]
             },
             "655": {
-                "name": "Timberwolves",
+                "name": "Timberwolves - '03-'04 - MIN",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1687,7 +1822,7 @@
                 ]
             },
             "656": {
-                "name": "Suns",
+                "name": "Suns - '04-'05 - PHX",
                 "file": "ESPN_05",
                 "useColors": 0,
                 "colors": [
@@ -1697,7 +1832,7 @@
                 ]
             },
             "657": {
-                "name": "Heat",
+                "name": "Heat - '05-'06 - MIA",
                 "file": "ESPN_05",
                 "useColors": 0,
                 "colors": [
@@ -1707,7 +1842,7 @@
                 ]
             },
             "658": {
-                "name": "Cavaliers",
+                "name": "Cavaliers - '06-'07 - CLE",
                 "file": "ESPN_07",
                 "useColors": 0,
                 "colors": [
@@ -1717,7 +1852,7 @@
                 ]
             },
             "659": {
-                "name": "Celtics",
+                "name": "Celtics - '07-'08 - BOS",
                 "file": "ESPN_07",
                 "useColors": 0,
                 "colors": [
@@ -1727,7 +1862,7 @@
                 ]
             },
             "660": {
-                "name": "Rockets",
+                "name": "Rockets - '07-'08 - HOU",
                 "file": "ESPN_07",
                 "useColors": 0,
                 "colors": [
@@ -1737,7 +1872,7 @@
                 ]
             },
             "661": {
-                "name": "Heat",
+                "name": "Heat - '12-'13 - MIA",
                 "file": "ESPN_12",
                 "useColors": 0,
                 "colors": [
@@ -1747,7 +1882,7 @@
                 ]
             },
             "700": {
-                "name": "USA",
+                "name": "USA - Hoops Summit - USA",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1757,7 +1892,7 @@
                 ]
             },
             "701": {
-                "name": "World",
+                "name": "World - Hoops Summit - WRLD",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1767,7 +1902,7 @@
                 ]
             },
             "729": {
-                "name": "Heat",
+                "name": "Heat - '96-'97 - MIA",
                 "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
@@ -1777,7 +1912,7 @@
                 ]
             },
             "730": {
-                "name": "Knicks",
+                "name": "Knicks - '98-'99 - NY",
                 "file": "TNT_98",
                 "useColors": 0,
                 "colors": [
@@ -1787,8 +1922,8 @@
                 ]
             },
             "731": {
-                "name": "Kings",
-                "file": "NBC_CALIFORNIA",
+                "name": "Kings - '01-'02 - SAC",
+                "file": "NBC_02",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1797,8 +1932,8 @@
                 ]
             },
             "732": {
-                "name": "Nets",
-                "file": "TNT_98",
+                "name": "Nets - '01-'02 - NJN",
+                "file": "NBC_02",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1807,7 +1942,7 @@
                 ]
             },
             "733": {
-                "name": "Lakers",
+                "name": "Lakers - '03-'04 - LAL",
                 "file": "ESPN_05",
                 "useColors": 0,
                 "colors": [
@@ -1817,7 +1952,7 @@
                 ]
             },
             "734": {
-                "name": "Spurs",
+                "name": "Spurs - '04-'05 - SA",
                 "file": "ESPN_05",
                 "useColors": 0,
                 "colors": [
@@ -1827,7 +1962,7 @@
                 ]
             },
             "735": {
-                "name": "Warriors",
+                "name": "Warriors - '06-'07 - GS",
                 "file": "ESPN_07",
                 "useColors": 0,
                 "colors": [
@@ -1837,7 +1972,7 @@
                 ]
             },
             "737": {
-                "name": "Nuggets",
+                "name": "Nuggets - '07-'08 - DEN",
                 "file": "ESPN_07",
                 "useColors": 0,
                 "colors": [
@@ -1847,8 +1982,8 @@
                 ]
             },
             "740": {
-                "name": "Bulls",
-                "file": "NBC_CHICAGO",
+                "name": "Bulls - '10-'11 - CHI",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1857,7 +1992,7 @@
                 ]
             },
             "741": {
-                "name": "Thunder",
+                "name": "Thunder - '11-'12 - OKC",
                 "file": "ESPN_12",
                 "useColors": 0,
                 "colors": [
@@ -1867,7 +2002,7 @@
                 ]
             },
             "742": {
-                "name": "Grizzlies",
+                "name": "Grizzlies - '05-'06 - MEM",
                 "file": "ESPN_05",
                 "useColors": 0,
                 "colors": [
@@ -1877,7 +2012,7 @@
                 ]
             },
             "743": {
-                "name": "Mavericks",
+                "name": "Mavericks - '10-'11 - DAL",
                 "file": "ESPN_12",
                 "useColors": 0,
                 "colors": [
@@ -1887,7 +2022,7 @@
                 ]
             },
             "745": {
-                "name": "Knicks",
+                "name": "Knicks - '11-'12 - NY",
                 "file": "ESPN_12",
                 "useColors": 0,
                 "colors": [
@@ -1897,7 +2032,7 @@
                 ]
             },
             "746": {
-                "name": "Grizzlies",
+                "name": "Grizzlies - '12-'13 - MEM",
                 "file": "ESPN_12",
                 "useColors": 0,
                 "colors": [
@@ -1907,8 +2042,8 @@
                 ]
             },
             "747": {
-                "name": "Pacers",
-                "file": "TNT_14",
+                "name": "Pacers - '13-'14 - IND",
+                "file": "FOX_13-14",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1917,8 +2052,8 @@
                 ]
             },
             "748": {
-                "name": "Warriors",
-                "file": "NBC_BAY_AREA",
+                "name": "Warriors - '15-'16 - GS",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1927,8 +2062,8 @@
                 ]
             },
             "770": {
-                "name": "76ers",
-                "file": "NBC_PHILADELPHIA",
+                "name": "All-Time 76ers",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1937,7 +2072,7 @@
                 ]
             },
             "771": {
-                "name": "Bucks",
+                "name": "All-Time Bucks",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1947,8 +2082,8 @@
                 ]
             },
             "772": {
-                "name": "Bulls",
-                "file": "NBC_CHICAGO",
+                "name": "All-Time Bulls",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1957,7 +2092,7 @@
                 ]
             },
             "773": {
-                "name": "Cavaliers",
+                "name": "All-Time Cavaliers",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1967,8 +2102,8 @@
                 ]
             },
             "774": {
-                "name": "Celtics",
-                "file": "NBC_BOSTON",
+                "name": "All-Time Celtics",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -1977,7 +2112,7 @@
                 ]
             },
             "775": {
-                "name": "Clippers",
+                "name": "All-Time Clippers",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -1987,7 +2122,7 @@
                 ]
             },
             "776": {
-                "name": "Grizzlies",
+                "name": "All-Time Grizzlies",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -1997,7 +2132,7 @@
                 ]
             },
             "777": {
-                "name": "Hawks",
+                "name": "All-Time Hawks",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2007,7 +2142,7 @@
                 ]
             },
             "778": {
-                "name": "Heat",
+                "name": "All-Time Heat",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2017,7 +2152,7 @@
                 ]
             },
             "779": {
-                "name": "Hornets",
+                "name": "All-Time Hornets",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2027,7 +2162,7 @@
                 ]
             },
             "780": {
-                "name": "Jazz",
+                "name": "All-Time Jazz",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -2037,8 +2172,8 @@
                 ]
             },
             "781": {
-                "name": "Kings",
-                "file": "NBC_CALIFORNIA",
+                "name": "All-Time Kings",
+                "file": "NBC",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -2047,7 +2182,7 @@
                 ]
             },
             "782": {
-                "name": "Knicks",
+                "name": "All-Time Knicks",
                 "file": "MSG",
                 "useColors": 0,
                 "colors": [
@@ -2057,7 +2192,7 @@
                 ]
             },
             "783": {
-                "name": "Lakers",
+                "name": "All-Time Lakers",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -2067,7 +2202,7 @@
                 ]
             },
             "784": {
-                "name": "Magic",
+                "name": "All-Time Magic",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2077,7 +2212,7 @@
                 ]
             },
             "785": {
-                "name": "Mavericks",
+                "name": "All-Time Mavericks",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2087,7 +2222,7 @@
                 ]
             },
             "786": {
-                "name": "Nets",
+                "name": "All-Time Nets",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -2097,7 +2232,7 @@
                 ]
             },
             "787": {
-                "name": "Nuggets",
+                "name": "All-Time Nuggets",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2107,7 +2242,7 @@
                 ]
             },
             "788": {
-                "name": "Pacers",
+                "name": "All-Time Pacers",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2117,7 +2252,7 @@
                 ]
             },
             "789": {
-                "name": "Pelicans",
+                "name": "All-Time Pelicans",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -2127,7 +2262,7 @@
                 ]
             },
             "790": {
-                "name": "Pistons",
+                "name": "All-Time Pistons",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2137,7 +2272,7 @@
                 ]
             },
             "791": {
-                "name": "Raptors",
+                "name": "All-Time Raptors",
                 "file": "TSN",
                 "useColors": 0,
                 "colors": [
@@ -2147,7 +2282,7 @@
                 ]
             },
             "792": {
-                "name": "Rockets",
+                "name": "All-Time Rockets",
                 "file": "TNT",
                 "useColors": 0,
                 "colors": [
@@ -2157,7 +2292,7 @@
                 ]
             },
             "793": {
-                "name": "Spurs",
+                "name": "All-Time Spurs",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2167,7 +2302,7 @@
                 ]
             },
             "794": {
-                "name": "Suns",
+                "name": "All-Time Suns",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2177,7 +2312,7 @@
                 ]
             },
             "795": {
-                "name": "Thunder",
+                "name": "All-Time Thunder",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -2187,7 +2322,7 @@
                 ]
             },
             "796": {
-                "name": "Timberwolves",
+                "name": "All-Time Timberwolves",
                 "file": "FOX",
                 "useColors": 0,
                 "colors": [
@@ -2197,7 +2332,7 @@
                 ]
             },
             "797": {
-                "name": "TrailBlazers",
+                "name": "All-Time TrailBlazers",
                 "file": "NBC_PNW",
                 "useColors": 0,
                 "colors": [
@@ -2207,7 +2342,7 @@
                 ]
             },
             "798": {
-                "name": "Warriors",
+                "name": "All-Time Warriors",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -2217,8 +2352,278 @@
                 ]
             },
             "799": {
-                "name": "Wizards",
-                "file": "NBC_SNF",
+                "name": "All-Time Wizards",
+                "file": "NBC",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "800": {
+                "name": "User",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "812": {
+                "name": "User",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "813": {
+                "name": "User",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "852": {
+                "name": "Nashville Stars - Expansion Premade - NSH",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "853": {
+                "name": "Pittsburgh Force - Expansion Premade - PIT",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "854": {
+                "name": "KC Knights - Expansion Premade - KC",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "855": {
+                "name": "Virginia Storm - Expansion Premade - VIR",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "856": {
+                "name": "Vancouver Ravens - Expansion Premade - VAN",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "857": {
+                "name": "San Diego Surf - Expansion Premade - SD",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "858": {
+                "name": "Cincinnati Lions - Expansion Premade - CIN",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "859": {
+                "name": "Baltimore Barons - Expansion Premade - BAL",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "860": {
+                "name": "Louisville Liberty - Expansion Premade - LOU",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "861": {
+                "name": "St. Louis Sound - Expansion - Premade - STL",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "862": {
+                "name": "New City Expansion Team 1 - Expansion Slot - EXP0",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "863": {
+                "name": "New City Expansion Team 2 - Expansion Slot - EXP1",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "864": {
+                "name": "New City Expansion Team 3 - Expansion Slot - EXP2",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "865": {
+                "name": "New City Expansion Team 4 - Expansion Slot - EXP3",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "866": {
+                "name": "New City Expansion Team 5 - Expansion Slot - EXP4",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "867": {
+                "name": "New City Expansion Team 6 - Expansion Slot - EXP5",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "880": {
+                "name": "Bay City Flames - College - BC",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "881": {
+                "name": "Central Valley Hawks - College - CV",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "884": {
+                "name": "60's All-Stars - Decade - 60s",
+                "file": "NBC_CLASSIC",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "885": {
+                "name": "70's All-Stars - Decade - 70s",
+                "file": "NBC_CLASSIC",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "886": {
+                "name": "80's All-Stars - Decade - 80s",
+                "file": "CBS_85",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "887": {
+                "name": "90's All-Stars - Decade - 90s",
+                "file": "TNT_98",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "888": {
+                "name": "2000's All-Stars - Decade - 00s",
+                "file": "ESPN_05",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "889": {
+                "name": "2010's All-Stars - Decade - 10s",
+                "file": "TNT_10",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -2227,7 +2632,7 @@
                 ]
             },
             "890": {
-                "name": "Suns",
+                "name": "Suns - '02-'03 - PHX",
                 "file": "ESPN_05",
                 "useColors": 0,
                 "colors": [
@@ -2237,7 +2642,7 @@
                 ]
             },
             "891": {
-                "name": "Wizards",
+                "name": "Wizards - '06-'07 - WAS",
                 "file": "ESPN_07",
                 "useColors": 0,
                 "colors": [
@@ -2247,7 +2652,7 @@
                 ]
             },
             "892": {
-                "name": "TrailBlazers",
+                "name": "TrailBlazers - '09-'10 - POR",
                 "file": "ESPN_12",
                 "useColors": 0,
                 "colors": [
@@ -2257,8 +2662,8 @@
                 ]
             },
             "893": {
-                "name": "Spurs",
-                "file": "ESPN_13-16",
+                "name": "Spurs - '13-'14 - SA",
+                "file": "FOX_13-14",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -2267,7 +2672,7 @@
                 ]
             },
             "894": {
-                "name": "Clippers",
+                "name": "Clippers - '13-'14 - LAC",
                 "file": "TNT_14",
                 "useColors": 0,
                 "colors": [
@@ -2277,8 +2682,28 @@
                 ]
             },
             "895": {
-                "name": "Cavaliers",
-                "file": "ESPN",
+                "name": "Cavaliers - '15-'16 - CLE",
+                "file": "ESPN_17-18",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "905": {
+                "name": "Team White - Street Home - WHT",
+                "file": "TNT",
+                "useColors": 0,
+                "colors": [
+                    "000000",
+                    "000000",
+                    "000000"
+                ]
+            },
+            "906": {
+                "name": "Team Black - Street Home - BLK",
+                "file": "TNT",
                 "useColors": 0,
                 "colors": [
                     "000000",
@@ -2287,7 +2712,7 @@
                 ]
             },
             "907": {
-                "name": "Team Blue",
+                "name": "Team Blue - Street Home - BLUE",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -2297,7 +2722,7 @@
                 ]
             },
             "908": {
-                "name": "Team Red",
+                "name": "Team Red - Street Home - RED",
                 "file": "ESPN",
                 "useColors": 0,
                 "colors": [
@@ -2307,6 +2732,6 @@
                 ]
             }
         },
-        "colorSimilarity": 0.55
+        "colorSimilarity": 0.550000011920929
     }
 }
